@@ -1,12 +1,13 @@
 # nuclear-impact-data
 
-Source data: [Wikipedia](https://en.wikipedia.org/wiki/List_of_nuclear_weapons_tests)
+Source Data: [Wikipedia](https://en.wikipedia.org/wiki/List_of_nuclear_weapons_tests)
 
-Web scraping: [wikipedia-scraper.ipynb](https://github.com/bryansteiner/nuclear-impact-analysis/blob/master/wikipedia-scraper.ipynb)
+Jupyter Notebooks:
 
-Data visualization: [nuclear-impact-maps](https://github.com/bryansteiner/nuclear-impact-analysis/blob/master/nuclear-impact-maps.ipynb)
+* Web scraper: wikipedia-scraper.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bryansteiner/nuclear-impact-data/a5daded205058241ef293f557128671bbca51715)
+* Data visualizer: [nuclear-impact-maps.ipynb][![Binder](https://mybinder.org/v2/gh/bryansteiner/nuclear-impact-data/a5daded205058241ef293f557128671bbca51715)
 
-Crawling pages/urls + tables: 
+Crawling wiki pages + tables: 
 ```
 List of nuclear weapons tests
    │
