@@ -1,0 +1,662 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "autopep8",
+    "flake8",
+    "jedi >=0.14.1,<0.16",
+    "mccabe",
+    "pluggy",
+    "pycodestyle",
+    "pydocstyle >=2.0.0",
+    "pyflakes >=1.6.0",
+    "pylint",
+    "python >=3.8,<3.9.0a0",
+    "python-jsonrpc-server >=0.3.2",
+    "rope >=0.10.5",
+    "setuptools",
+    "ujson <=1.35",
+    "yapf"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/python-language-server-0.31.7-py38_0",
+  "features": "",
+  "files": [
+    "bin/pyls",
+    "lib/python3.8/site-packages/pyls/__init__.py",
+    "lib/python3.8/site-packages/pyls/__main__.py",
+    "lib/python3.8/site-packages/pyls/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/hookspecs.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/lsp.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/python_ls.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/uris.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/__pycache__/workspace.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/_utils.py",
+    "lib/python3.8/site-packages/pyls/_version.py",
+    "lib/python3.8/site-packages/pyls/config/__init__.py",
+    "lib/python3.8/site-packages/pyls/config/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/config/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/config/__pycache__/flake8_conf.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/config/__pycache__/pycodestyle_conf.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/config/__pycache__/source.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/config/config.py",
+    "lib/python3.8/site-packages/pyls/config/flake8_conf.py",
+    "lib/python3.8/site-packages/pyls/config/pycodestyle_conf.py",
+    "lib/python3.8/site-packages/pyls/config/source.py",
+    "lib/python3.8/site-packages/pyls/hookspecs.py",
+    "lib/python3.8/site-packages/pyls/lsp.py",
+    "lib/python3.8/site-packages/pyls/plugins/__init__.py",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/autopep8_format.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/definition.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/flake8_lint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/folding.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/highlight.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/hover.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/jedi_completion.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/mccabe_lint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/preload_imports.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/pycodestyle_lint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/pydocstyle_lint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/pyflakes_lint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/pylint_lint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/references.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/rope_completion.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/rope_rename.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/signature.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/symbols.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/__pycache__/yapf_format.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls/plugins/autopep8_format.py",
+    "lib/python3.8/site-packages/pyls/plugins/definition.py",
+    "lib/python3.8/site-packages/pyls/plugins/flake8_lint.py",
+    "lib/python3.8/site-packages/pyls/plugins/folding.py",
+    "lib/python3.8/site-packages/pyls/plugins/highlight.py",
+    "lib/python3.8/site-packages/pyls/plugins/hover.py",
+    "lib/python3.8/site-packages/pyls/plugins/jedi_completion.py",
+    "lib/python3.8/site-packages/pyls/plugins/mccabe_lint.py",
+    "lib/python3.8/site-packages/pyls/plugins/preload_imports.py",
+    "lib/python3.8/site-packages/pyls/plugins/pycodestyle_lint.py",
+    "lib/python3.8/site-packages/pyls/plugins/pydocstyle_lint.py",
+    "lib/python3.8/site-packages/pyls/plugins/pyflakes_lint.py",
+    "lib/python3.8/site-packages/pyls/plugins/pylint_lint.py",
+    "lib/python3.8/site-packages/pyls/plugins/references.py",
+    "lib/python3.8/site-packages/pyls/plugins/rope_completion.py",
+    "lib/python3.8/site-packages/pyls/plugins/rope_rename.py",
+    "lib/python3.8/site-packages/pyls/plugins/signature.py",
+    "lib/python3.8/site-packages/pyls/plugins/symbols.py",
+    "lib/python3.8/site-packages/pyls/plugins/yapf_format.py",
+    "lib/python3.8/site-packages/pyls/python_ls.py",
+    "lib/python3.8/site-packages/pyls/uris.py",
+    "lib/python3.8/site-packages/pyls/workspace.py",
+    "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/LICENSE",
+    "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/METADATA",
+    "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/RECORD",
+    "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/WHEEL",
+    "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/top_level.txt"
+  ],
+  "fn": "python-language-server-0.31.7-py38_0.conda",
+  "legacy_bz2_md5": "c8ef13d09b4ff5f99bea3207bd47c5b6",
+  "legacy_bz2_size": 74195,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/python-language-server-0.31.7-py38_0",
+    "type": 1
+  },
+  "md5": "c23e847d0c9aec77249f00ada0d209a9",
+  "name": "python-language-server",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/python-language-server-0.31.7-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pyls",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "336ba5c6acc471e9dc8dd8c178ac3c91df55c64ee8d7cf1a1a9b353cbc59b5e6",
+        "sha256_in_prefix": "cfb9565ea21b6c47f21af9b131b82eec091e1804f81ff6a106ad9065d0432bdf",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0a30b17417e11f0c2b6180f1b7bef8179313c84a4b0aa96f2a474891f0f863c9",
+        "sha256_in_prefix": "0a30b17417e11f0c2b6180f1b7bef8179313c84a4b0aa96f2a474891f0f863c9",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "2b8d7ac9ebd45c535cbb2b1b8afec30a3b0e7def7ff89c99479f013970fdbccf",
+        "sha256_in_prefix": "2b8d7ac9ebd45c535cbb2b1b8afec30a3b0e7def7ff89c99479f013970fdbccf",
+        "size_in_bytes": 3916
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "336b73f8e49b036a347084d692514b56110ffa1c4774e5e1089e4b9f144eb330",
+        "sha256_in_prefix": "336b73f8e49b036a347084d692514b56110ffa1c4774e5e1089e4b9f144eb330",
+        "size_in_bytes": 500
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8df613da4151ce8f3dbf697297b1b9555b7e5c9c1dff4239ffd8d4f082c246aa",
+        "sha256_in_prefix": "8df613da4151ce8f3dbf697297b1b9555b7e5c9c1dff4239ffd8d4f082c246aa",
+        "size_in_bytes": 3224
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db0a1fa31b5678825e153cddd0cfee7246873efdf5c99022a9956499c93a66a7",
+        "sha256_in_prefix": "db0a1fa31b5678825e153cddd0cfee7246873efdf5c99022a9956499c93a66a7",
+        "size_in_bytes": 5736
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4963f8ceb339e025882770be137887a5f9078f00211966f930065c7d6d6424f",
+        "sha256_in_prefix": "e4963f8ceb339e025882770be137887a5f9078f00211966f930065c7d6d6424f",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/hookspecs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a503cddde6e9ad1b7b038fe9d9d4b4910995ded782a1603823df723792ac7cf2",
+        "sha256_in_prefix": "a503cddde6e9ad1b7b038fe9d9d4b4910995ded782a1603823df723792ac7cf2",
+        "size_in_bytes": 3321
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/lsp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "78ce94429e9fe31a7a71cc10afe3e36a82c65d922ed0f3816d9e401f1fa6fb6b",
+        "sha256_in_prefix": "78ce94429e9fe31a7a71cc10afe3e36a82c65d922ed0f3816d9e401f1fa6fb6b",
+        "size_in_bytes": 2241
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/python_ls.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a006533f54be11d033563b761a7e48c1687c9f03c48962d6030a210700cf5f66",
+        "sha256_in_prefix": "a006533f54be11d033563b761a7e48c1687c9f03c48962d6030a210700cf5f66",
+        "size_in_bytes": 16580
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/uris.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "22f9ceb6800a9109e026ba80cfee54c22b5f488e93e2daca509cfc5901f231c9",
+        "sha256_in_prefix": "22f9ceb6800a9109e026ba80cfee54c22b5f488e93e2daca509cfc5901f231c9",
+        "size_in_bytes": 2822
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/__pycache__/workspace.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc0dc35b9cc60ea6f6e522188c39185627488b747e40cd8fb75cc48f027f9f21",
+        "sha256_in_prefix": "bc0dc35b9cc60ea6f6e522188c39185627488b747e40cd8fb75cc48f027f9f21",
+        "size_in_bytes": 8867
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "27b073ad4429b691e1b76bf63ba719fb8787b7202488dd8ca69e9bf8b2ff4484",
+        "sha256_in_prefix": "27b073ad4429b691e1b76bf63ba719fb8787b7202488dd8ca69e9bf8b2ff4484",
+        "size_in_bytes": 6274
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/_version.py",
+        "path_type": "hardlink",
+        "sha256": "99d8a7f4430dc8de052c3719701bfbe8a383d50d1412ad29dc765570799a2e14",
+        "sha256_in_prefix": "99d8a7f4430dc8de052c3719701bfbe8a383d50d1412ad29dc765570799a2e14",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c802194333364abef507d147573e42671e9e0ef1c758fd47f41975c11da7421d",
+        "sha256_in_prefix": "c802194333364abef507d147573e42671e9e0ef1c758fd47f41975c11da7421d",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5026a29f5444d91fffa025e8333f398c647190a2c591f21ece2c138bb987224",
+        "sha256_in_prefix": "a5026a29f5444d91fffa025e8333f398c647190a2c591f21ece2c138bb987224",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e6bdcaed93113c37d97438d87fbd0e7f0f23663e5588c8f32786e85e57601e7",
+        "sha256_in_prefix": "8e6bdcaed93113c37d97438d87fbd0e7f0f23663e5588c8f32786e85e57601e7",
+        "size_in_bytes": 5116
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/__pycache__/flake8_conf.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "567b9799f1402468464cb3c2d766b5b41af47d05e5cfd8f5c73fa740d6d60b43",
+        "sha256_in_prefix": "567b9799f1402468464cb3c2d766b5b41af47d05e5cfd8f5c73fa740d6d60b43",
+        "size_in_bytes": 1915
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/__pycache__/pycodestyle_conf.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f802e5498b9f04e879f910ae90f3431b2a3c6dbebd0920b5afbacf748b784cee",
+        "sha256_in_prefix": "f802e5498b9f04e879f910ae90f3431b2a3c6dbebd0920b5afbacf748b784cee",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/__pycache__/source.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "86fa272ae0ea5bac102d84f54a37d1b116a21e59afdb9c13658f6c48b064b221",
+        "sha256_in_prefix": "86fa272ae0ea5bac102d84f54a37d1b116a21e59afdb9c13658f6c48b064b221",
+        "size_in_bytes": 2906
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/config.py",
+        "path_type": "hardlink",
+        "sha256": "64a9284322c598de34b623b256a3e2732f42589de668c8888359d48c9cb7bd90",
+        "sha256_in_prefix": "64a9284322c598de34b623b256a3e2732f42589de668c8888359d48c9cb7bd90",
+        "size_in_bytes": 5664
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/flake8_conf.py",
+        "path_type": "hardlink",
+        "sha256": "9d631cf35e71becf1fb9189058faa7e35664e574709576df08a286a7d1e955dc",
+        "sha256_in_prefix": "9d631cf35e71becf1fb9189058faa7e35664e574709576df08a286a7d1e955dc",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/pycodestyle_conf.py",
+        "path_type": "hardlink",
+        "sha256": "e09bc627a92213f9ee5de0ba9d5354337667742f8f5af8a4026f586b65b73048",
+        "sha256_in_prefix": "e09bc627a92213f9ee5de0ba9d5354337667742f8f5af8a4026f586b65b73048",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/config/source.py",
+        "path_type": "hardlink",
+        "sha256": "36168a8d277321dcfa5b95fbcea7094b50a92bf963a9aad98623405ca755a140",
+        "sha256_in_prefix": "36168a8d277321dcfa5b95fbcea7094b50a92bf963a9aad98623405ca755a140",
+        "size_in_bytes": 2481
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/hookspecs.py",
+        "path_type": "hardlink",
+        "sha256": "365aafd13c91df322c7798903b82bea9bbe5eb353bda139aa0ca64705d20c313",
+        "sha256_in_prefix": "365aafd13c91df322c7798903b82bea9bbe5eb353bda139aa0ca64705d20c313",
+        "size_in_bytes": 2103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/lsp.py",
+        "path_type": "hardlink",
+        "sha256": "a31d17d08bab6502d696432789cfae8e295e96c6a5b5cbdd68df3be807a7f5f3",
+        "sha256_in_prefix": "a31d17d08bab6502d696432789cfae8e295e96c6a5b5cbdd68df3be807a7f5f3",
+        "size_in_bytes": 1228
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c802194333364abef507d147573e42671e9e0ef1c758fd47f41975c11da7421d",
+        "sha256_in_prefix": "c802194333364abef507d147573e42671e9e0ef1c758fd47f41975c11da7421d",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac4d9419ad20ff54bb88ac248682e6b9fca684a1aad2da021396a588134ca491",
+        "sha256_in_prefix": "ac4d9419ad20ff54bb88ac248682e6b9fca684a1aad2da021396a588134ca491",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/autopep8_format.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a43fbdf82cfecc1aa324910eaacea13e74e83885abfcbd6f4a0903fde7297d05",
+        "sha256_in_prefix": "a43fbdf82cfecc1aa324910eaacea13e74e83885abfcbd6f4a0903fde7297d05",
+        "size_in_bytes": 1713
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/definition.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2d4a7391a734bb74cc34f2710b0bda159656b859f7d78326f47a99862a8ae8a",
+        "sha256_in_prefix": "f2d4a7391a734bb74cc34f2710b0bda159656b859f7d78326f47a99862a8ae8a",
+        "size_in_bytes": 1188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/flake8_lint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "19fd822110f2ea42729195d7423218025a6933f7580893c770af2d3bd08e52e2",
+        "sha256_in_prefix": "19fd822110f2ea42729195d7423218025a6933f7580893c770af2d3bd08e52e2",
+        "size_in_bytes": 3713
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/folding.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b95b8b671a0ea1e8be2e1f096f38186b23144af0483ccf2ce153af456e8c708b",
+        "sha256_in_prefix": "b95b8b671a0ea1e8be2e1f096f38186b23144af0483ccf2ce153af456e8c708b",
+        "size_in_bytes": 4378
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/highlight.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "668e2331f6322d54abeba069518f20bfed4af15a001c836ba1f74c43ad3c9871",
+        "sha256_in_prefix": "668e2331f6322d54abeba069518f20bfed4af15a001c836ba1f74c43ad3c9871",
+        "size_in_bytes": 1255
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/hover.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea5ee887c4678c07faed7746ec789eb821df06780026eddfbda21b54382834df",
+        "sha256_in_prefix": "ea5ee887c4678c07faed7746ec789eb821df06780026eddfbda21b54382834df",
+        "size_in_bytes": 1229
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/jedi_completion.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc2f0cf0e1b04fd8f35fcca3d856a9e0ac374551e767e70bb34deb716f1324b9",
+        "sha256_in_prefix": "bc2f0cf0e1b04fd8f35fcca3d856a9e0ac374551e767e70bb34deb716f1324b9",
+        "size_in_bytes": 4070
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/mccabe_lint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce8aeac2acb3ee0cb571c77f54b7a2a829bd767ae73752b19a9529f5b8cbd1a5",
+        "sha256_in_prefix": "ce8aeac2acb3ee0cb571c77f54b7a2a829bd767ae73752b19a9529f5b8cbd1a5",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/preload_imports.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc00df3182cb9481f7e13a2632094076cca8ba6761cd4cc6a6f9768c5f3444d0",
+        "sha256_in_prefix": "bc00df3182cb9481f7e13a2632094076cca8ba6761cd4cc6a6f9768c5f3444d0",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/pycodestyle_lint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f58da10e254e4793394a8d1ac78445308517fd0b43c42efad0045ec596be592b",
+        "sha256_in_prefix": "f58da10e254e4793394a8d1ac78445308517fd0b43c42efad0045ec596be592b",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/pydocstyle_lint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "41f5a1bcd3680934ae328ff1f79cffa656d57c23427f5c48adb60e7f01df474d",
+        "sha256_in_prefix": "41f5a1bcd3680934ae328ff1f79cffa656d57c23427f5c48adb60e7f01df474d",
+        "size_in_bytes": 2622
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/pyflakes_lint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dabf30c8d760c10e25d8a0d173985c8682824b4daa736ba452205e3ba16fbbae",
+        "sha256_in_prefix": "dabf30c8d760c10e25d8a0d173985c8682824b4daa736ba452205e3ba16fbbae",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/pylint_lint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d23daddd74a6a4dbaf8125f17fc59968c61a0ae23e71e3b0866b0e2528330f7",
+        "sha256_in_prefix": "0d23daddd74a6a4dbaf8125f17fc59968c61a0ae23e71e3b0866b0e2528330f7",
+        "size_in_bytes": 3426
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/references.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cca4910997af19bf951e0719510de33a6545ce0dd6a235e1e3fb021f8225bf79",
+        "sha256_in_prefix": "cca4910997af19bf951e0719510de33a6545ce0dd6a235e1e3fb021f8225bf79",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/rope_completion.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f930f147f91f32b0eac999157089f768bf0f0f6f46bbe68fa27dc2042f4ee4e2",
+        "sha256_in_prefix": "f930f147f91f32b0eac999157089f768bf0f0f6f46bbe68fa27dc2042f4ee4e2",
+        "size_in_bytes": 2579
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/rope_rename.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0712a07c0648e4d9edb30e76d6bcec30bebe2c27aefb95aa7911bd47a433b305",
+        "sha256_in_prefix": "0712a07c0648e4d9edb30e76d6bcec30bebe2c27aefb95aa7911bd47a433b305",
+        "size_in_bytes": 1615
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/signature.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "267a4d4dab293c48b6465747920af5a7b042adc2cd4b3e54a57cbffa5e250d8e",
+        "sha256_in_prefix": "267a4d4dab293c48b6465747920af5a7b042adc2cd4b3e54a57cbffa5e250d8e",
+        "size_in_bytes": 1662
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/symbols.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d79bcfbb7b311a3bead437e1954d35b9b1991c1d2de167428a391e768b303752",
+        "sha256_in_prefix": "d79bcfbb7b311a3bead437e1954d35b9b1991c1d2de167428a391e768b303752",
+        "size_in_bytes": 2328
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/__pycache__/yapf_format.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "12bbdfd2b5f8b68e56479d7b699197a7cff1e1f3c524aa6ad15519760c06be1b",
+        "sha256_in_prefix": "12bbdfd2b5f8b68e56479d7b699197a7cff1e1f3c524aa6ad15519760c06be1b",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/autopep8_format.py",
+        "path_type": "hardlink",
+        "sha256": "73cf6348d0a291e398ae312789a5fab4000c16f229e074bad33d61ab62c45d64",
+        "sha256_in_prefix": "73cf6348d0a291e398ae312789a5fab4000c16f229e074bad33d61ab62c45d64",
+        "size_in_bytes": 2047
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/definition.py",
+        "path_type": "hardlink",
+        "sha256": "da9e62a406131765bf198f085ab12520f3db69ec94b763b878861df083a210d2",
+        "sha256_in_prefix": "da9e62a406131765bf198f085ab12520f3db69ec94b763b878861df083a210d2",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/flake8_lint.py",
+        "path_type": "hardlink",
+        "sha256": "e921a8ddaeea548c916834422e78d57a0db4b7d09a1722dc1ac04eac30a6fdbd",
+        "sha256_in_prefix": "e921a8ddaeea548c916834422e78d57a0db4b7d09a1722dc1ac04eac30a6fdbd",
+        "size_in_bytes": 4549
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/folding.py",
+        "path_type": "hardlink",
+        "sha256": "56486b902a07a3fccc8ca40b3f3cbbe8dc4ca5eddc9222b9f63a812ee491ed56",
+        "sha256_in_prefix": "56486b902a07a3fccc8ca40b3f3cbbe8dc4ca5eddc9222b9f63a812ee491ed56",
+        "size_in_bytes": 7109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/highlight.py",
+        "path_type": "hardlink",
+        "sha256": "2aceb8df0cdac13be604385ca1e48f994863cbe0514f383bc5c720b9219151fc",
+        "sha256_in_prefix": "2aceb8df0cdac13be604385ca1e48f994863cbe0514f383bc5c720b9219151fc",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/hover.py",
+        "path_type": "hardlink",
+        "sha256": "bec4bda46e2399dfd00bbe4bfe3e41832aabcd4c787c977c281aa5fd1394cd96",
+        "sha256_in_prefix": "bec4bda46e2399dfd00bbe4bfe3e41832aabcd4c787c977c281aa5fd1394cd96",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/jedi_completion.py",
+        "path_type": "hardlink",
+        "sha256": "6e7334133276d282a2cef634fdb11635ebc03162dccbe514e25c0988111b4612",
+        "sha256_in_prefix": "6e7334133276d282a2cef634fdb11635ebc03162dccbe514e25c0988111b4612",
+        "size_in_bytes": 5001
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/mccabe_lint.py",
+        "path_type": "hardlink",
+        "sha256": "ae2b852cc22118d4ad12a20ce5952e5496f3ae4865be8059a4fcf41db5a31a46",
+        "sha256_in_prefix": "ae2b852cc22118d4ad12a20ce5952e5496f3ae4865be8059a4fcf41db5a31a46",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/preload_imports.py",
+        "path_type": "hardlink",
+        "sha256": "008b38cd735918359ea4cca7ec66edf409d7a90cb754ab62205b02acb560fb09",
+        "sha256_in_prefix": "008b38cd735918359ea4cca7ec66edf409d7a90cb754ab62205b02acb560fb09",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/pycodestyle_lint.py",
+        "path_type": "hardlink",
+        "sha256": "a335aaa72acf27c6cdbcb9fd03e183e97a8de8f9e69a78749f6b0a3efef8781d",
+        "sha256_in_prefix": "a335aaa72acf27c6cdbcb9fd03e183e97a8de8f9e69a78749f6b0a3efef8781d",
+        "size_in_bytes": 2756
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/pydocstyle_lint.py",
+        "path_type": "hardlink",
+        "sha256": "a2c14477c5c22ab9b1919974efedd9fd1bada42578bfb65bf825de68055a2421",
+        "sha256_in_prefix": "a2c14477c5c22ab9b1919974efedd9fd1bada42578bfb65bf825de68055a2421",
+        "size_in_bytes": 3656
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/pyflakes_lint.py",
+        "path_type": "hardlink",
+        "sha256": "705f86d95f82fae07c6430b7c5c57505041c9d5471b018a2873ea0b61ce478b3",
+        "sha256_in_prefix": "705f86d95f82fae07c6430b7c5c57505041c9d5471b018a2873ea0b61ce478b3",
+        "size_in_bytes": 2620
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/pylint_lint.py",
+        "path_type": "hardlink",
+        "sha256": "af2b2dd93c5c3e94f6f1e1b81759cef137cf1f379ba1297807cf69d82aa8a085",
+        "sha256_in_prefix": "af2b2dd93c5c3e94f6f1e1b81759cef137cf1f379ba1297807cf69d82aa8a085",
+        "size_in_bytes": 5637
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/references.py",
+        "path_type": "hardlink",
+        "sha256": "b82b4afe37f69cfbb893fef0f3566d4ce7a89098a8a5665d3203d35344f013d4",
+        "sha256_in_prefix": "b82b4afe37f69cfbb893fef0f3566d4ce7a89098a8a5665d3203d35344f013d4",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/rope_completion.py",
+        "path_type": "hardlink",
+        "sha256": "e931a98b601b46a1bde36eee00671d79cbe74704ee29398fcd0441f845e18e57",
+        "sha256_in_prefix": "e931a98b601b46a1bde36eee00671d79cbe74704ee29398fcd0441f845e18e57",
+        "size_in_bytes": 3860
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/rope_rename.py",
+        "path_type": "hardlink",
+        "sha256": "abbb2068c520d7a9c96d0a8fa39d4f3171bc036dc59830dbbcada4e80a3d953f",
+        "sha256_in_prefix": "abbb2068c520d7a9c96d0a8fa39d4f3171bc036dc59830dbbcada4e80a3d953f",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/signature.py",
+        "path_type": "hardlink",
+        "sha256": "9a70861805b0d7cfc5b6c6b582bf20dc85b8b33656c66700d4c1a3a6c6ba3d7b",
+        "sha256_in_prefix": "9a70861805b0d7cfc5b6c6b582bf20dc85b8b33656c66700d4c1a3a6c6ba3d7b",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/symbols.py",
+        "path_type": "hardlink",
+        "sha256": "2e53bf19598c2e7142f28222fa45ea73b22cc3006584db52b18076334c0af41f",
+        "sha256_in_prefix": "2e53bf19598c2e7142f28222fa45ea73b22cc3006584db52b18076334c0af41f",
+        "size_in_bytes": 3027
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/plugins/yapf_format.py",
+        "path_type": "hardlink",
+        "sha256": "fe3c8c258efeca2926802c93fff2bc932e765b4ef49549c09d7a21fcbf6079e6",
+        "sha256_in_prefix": "fe3c8c258efeca2926802c93fff2bc932e765b4ef49549c09d7a21fcbf6079e6",
+        "size_in_bytes": 1677
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/python_ls.py",
+        "path_type": "hardlink",
+        "sha256": "5d5efe873cb638a87a82dd8adec32c1b1d74463af7507fdf120e9b9a21ba7f09",
+        "sha256_in_prefix": "5d5efe873cb638a87a82dd8adec32c1b1d74463af7507fdf120e9b9a21ba7f09",
+        "size_in_bytes": 16963
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/uris.py",
+        "path_type": "hardlink",
+        "sha256": "fa3c8202dddad81811e2c83758945caee38ec538df9c4b1db9d92b775f56a56d",
+        "sha256_in_prefix": "fa3c8202dddad81811e2c83758945caee38ec538df9c4b1db9d92b775f56a56d",
+        "size_in_bytes": 3693
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls/workspace.py",
+        "path_type": "hardlink",
+        "sha256": "83883c0defd280cecae4a4b81ccd04e3b84fc2cd47d3bae61d36f0b23aabea20",
+        "sha256_in_prefix": "83883c0defd280cecae4a4b81ccd04e3b84fc2cd47d3bae61d36f0b23aabea20",
+        "size_in_bytes": 9583
+      },
+      {
+        "_path": "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bc5576d09bfc98477222b026a6874b2cb0c9045b27f77818a36b748f94d2f97d",
+        "sha256_in_prefix": "bc5576d09bfc98477222b026a6874b2cb0c9045b27f77818a36b748f94d2f97d",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "edc605040f500fb3c92855e8cffd0ef284d7a0c4b198435eb16c8077174372d7",
+        "sha256_in_prefix": "edc605040f500fb3c92855e8cffd0ef284d7a0c4b198435eb16c8077174372d7",
+        "size_in_bytes": 7608
+      },
+      {
+        "_path": "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1dcac878558b5416e7f5b5e93739218daf088381b4c3610d5b79e30547121e8a",
+        "sha256_in_prefix": "1dcac878558b5416e7f5b5e93739218daf088381b4c3610d5b79e30547121e8a",
+        "size_in_bytes": 5282
+      },
+      {
+        "_path": "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a78ebfe54873ab3e80cde4a8b223a7c4afb39858dad62db60ab4028e661ef1e7",
+        "sha256_in_prefix": "a78ebfe54873ab3e80cde4a8b223a7c4afb39858dad62db60ab4028e661ef1e7",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "0b3f4127cd1fb48bcd457da314f265a210b6203c830462a69a6e26c7696c2e47",
+        "sha256_in_prefix": "0b3f4127cd1fb48bcd457da314f265a210b6203c830462a69a6e26c7696c2e47",
+        "size_in_bytes": 791
+      },
+      {
+        "_path": "lib/python3.8/site-packages/python_language_server-0.31.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1a7b621bd2c0d4adb1f6982e70f8593ed8b38ee0d6355ab236a2fea0b67d26d8",
+        "sha256_in_prefix": "1a7b621bd2c0d4adb1f6982e70f8593ed8b38ee0d6355ab236a2fea0b67d26d8",
+        "size_in_bytes": 5
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f2f8d50d244c20c9165f93d2c69243ea1559e7faa9db2c1dfd96d9710e52809c",
+  "size": 76407,
+  "subdir": "osx-64",
+  "timestamp": 1580400916123,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python-language-server-0.31.7-py38_0.conda",
+  "version": "0.31.7"
+}

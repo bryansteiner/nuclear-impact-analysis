@@ -1,0 +1,134 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/unicodecsv-0.14.1-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/unicodecsv/__init__.py",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/py2.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/py3.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/test.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/py2.py",
+    "lib/python3.8/site-packages/unicodecsv/py3.py",
+    "lib/python3.8/site-packages/unicodecsv/test.py"
+  ],
+  "fn": "unicodecsv-0.14.1-py38_0.conda",
+  "legacy_bz2_md5": "bd3a083c75e2ce111a5068318db4ec8a",
+  "legacy_bz2_size": 26670,
+  "license": "BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/unicodecsv-0.14.1-py38_0",
+    "type": 1
+  },
+  "md5": "2cceb2a3d3ebe4190a5a0761ac61c98b",
+  "name": "unicodecsv",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/unicodecsv-0.14.1-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "86430c224cd67b120e4c685965bef2ac439dda21558a963d77f2e7a5310d533f",
+        "sha256_in_prefix": "86430c224cd67b120e4c685965bef2ac439dda21558a963d77f2e7a5310d533f",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "4320ea6c017541b0c824f55eaba62de2c7387e1c53d68777f872117427d97867",
+        "sha256_in_prefix": "4320ea6c017541b0c824f55eaba62de2c7387e1c53d68777f872117427d97867",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e55a4776e6480dac71a60fb07457f41edb667300538226f6f0bb731a28bb6e60",
+        "sha256_in_prefix": "e55a4776e6480dac71a60fb07457f41edb667300538226f6f0bb731a28bb6e60",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "451202b70d030a2c1723fd4843b252e3c148f2f13c6b3562f134d30ac6959bb5",
+        "sha256_in_prefix": "451202b70d030a2c1723fd4843b252e3c148f2f13c6b3562f134d30ac6959bb5",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "37e3dbdc11e22076cec8618d79379b45e09b28752d1cf43ef7f1346fac85646d",
+        "sha256_in_prefix": "37e3dbdc11e22076cec8618d79379b45e09b28752d1cf43ef7f1346fac85646d",
+        "size_in_bytes": 335
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/__pycache__/py2.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9af5b5ea53cb295943703e04f9f9d5d5cfa0dcf226d918318d20563501b4072",
+        "sha256_in_prefix": "c9af5b5ea53cb295943703e04f9f9d5d5cfa0dcf226d918318d20563501b4072",
+        "size_in_bytes": 7733
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/__pycache__/py3.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "132c8af1680ae98e8b9bb30b66f8d5bab84f34bbb5deefba514c59de8424c607",
+        "sha256_in_prefix": "132c8af1680ae98e8b9bb30b66f8d5bab84f34bbb5deefba514c59de8424c607",
+        "size_in_bytes": 4301
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/__pycache__/test.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "080489bb8f7a395e8ba5456e1e744d6176734a38dba36815ea2b2a8fc6772951",
+        "sha256_in_prefix": "080489bb8f7a395e8ba5456e1e744d6176734a38dba36815ea2b2a8fc6772951",
+        "size_in_bytes": 34259
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/py2.py",
+        "path_type": "hardlink",
+        "sha256": "cadf619cb95a695ae5ff5b7231ad49418bff366a77f06728122f848a9121ef80",
+        "sha256_in_prefix": "cadf619cb95a695ae5ff5b7231ad49418bff366a77f06728122f848a9121ef80",
+        "size_in_bytes": 7099
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/py3.py",
+        "path_type": "hardlink",
+        "sha256": "e15383f8c25222273bab2b0f54dd96f672fd66ab0b7759aaa751fdbae88cc856",
+        "sha256_in_prefix": "e15383f8c25222273bab2b0f54dd96f672fd66ab0b7759aaa751fdbae88cc856",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "lib/python3.8/site-packages/unicodecsv/test.py",
+        "path_type": "hardlink",
+        "sha256": "d3eb099cd07a0a770bfd4ecf8446bf1040e526e2aa1edc93af2376882e6fe7af",
+        "sha256_in_prefix": "d3eb099cd07a0a770bfd4ecf8446bf1040e526e2aa1edc93af2376882e6fe7af",
+        "size_in_bytes": 34943
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "37824d190dab05412aa9ee2354347806139b6205c546527b3fc190b80d730223",
+  "size": 27758,
+  "subdir": "osx-64",
+  "timestamp": 1573201204075,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/unicodecsv-0.14.1-py38_0.conda",
+  "version": "0.14.1"
+}

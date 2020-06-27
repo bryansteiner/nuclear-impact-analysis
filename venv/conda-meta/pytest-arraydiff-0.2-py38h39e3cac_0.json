@@ -1,0 +1,128 @@
+{
+  "build": "py38h39e3cac_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "pytest",
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/pytest-arraydiff-0.2-py38h39e3cac_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pytest_arraydiff/__init__.py",
+    "lib/python3.8/site-packages/pytest_arraydiff/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pytest_arraydiff/__pycache__/plugin.cpython-38.pyc",
+    "lib/python3.8/site-packages/pytest_arraydiff/plugin.py"
+  ],
+  "fn": "pytest-arraydiff-0.2-py38h39e3cac_0.conda",
+  "legacy_bz2_md5": "8008058b70e32ee774e542908159b698",
+  "legacy_bz2_size": 15160,
+  "license": "BSD",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/pytest-arraydiff-0.2-py38h39e3cac_0",
+    "type": 1
+  },
+  "md5": "0ed986d45282ecd4c3370855e2a868da",
+  "name": "pytest-arraydiff",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/pytest-arraydiff-0.2-py38h39e3cac_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b31f717449dcf9019b75e4ff75e9cb004d6aa575d720ed2a3f64d11fee2c29ef",
+        "sha256_in_prefix": "b31f717449dcf9019b75e4ff75e9cb004d6aa575d720ed2a3f64d11fee2c29ef",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0dbee3a9ef1008b2c5ee3aa2117334f9f05dff47f72972492fc95be08e9146a7",
+        "sha256_in_prefix": "0dbee3a9ef1008b2c5ee3aa2117334f9f05dff47f72972492fc95be08e9146a7",
+        "size_in_bytes": 7914
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "06bc44077678d9e67b397f1f4a873163cfd568a9c751ec6d0c178ba811dba2a6",
+        "sha256_in_prefix": "06bc44077678d9e67b397f1f4a873163cfd568a9c751ec6d0c178ba811dba2a6",
+        "size_in_bytes": 903
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2bc06e9099e5d958bf637187be3db35aa2c98de3db26542dba92b6373cbf520c",
+        "sha256_in_prefix": "2bc06e9099e5d958bf637187be3db35aa2c98de3db26542dba92b6373cbf520c",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f48502a5588c66d7eee892e374206d5063c68ab8a1daec0e7b0baaa97ceaa5e4",
+        "sha256_in_prefix": "f48502a5588c66d7eee892e374206d5063c68ab8a1daec0e7b0baaa97ceaa5e4",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff-0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "edf54ea08c891d5b92424c5029591f89f1825db428caa3164a0ce6c0405e7a04",
+        "sha256_in_prefix": "edf54ea08c891d5b92424c5029591f89f1825db428caa3164a0ce6c0405e7a04",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f9c1cee683873ee042965e0da1ed5f2158db30884afddd6068925c3e56d296de",
+        "sha256_in_prefix": "f9c1cee683873ee042965e0da1ed5f2158db30884afddd6068925c3e56d296de",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b2fb9c5361460a8b9fd4252d299172853ecd45980e76136775e223c62e4f1e8",
+        "sha256_in_prefix": "7b2fb9c5361460a8b9fd4252d299172853ecd45980e76136775e223c62e4f1e8",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff/__pycache__/plugin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "895735ba3fca7064d305f8866680b644da9c9a3fa1dd9c9c4cbdca69c86490d3",
+        "sha256_in_prefix": "895735ba3fca7064d305f8866680b644da9c9a3fa1dd9c9c4cbdca69c86490d3",
+        "size_in_bytes": 8009
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_arraydiff/plugin.py",
+        "path_type": "hardlink",
+        "sha256": "b5f8fc4522180a038798ebee74b90a2441c59ea0a786abbd6cb1d9215887e24d",
+        "sha256_in_prefix": "b5f8fc4522180a038798ebee74b90a2441c59ea0a786abbd6cb1d9215887e24d",
+        "size_in_bytes": 11576
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d0caeb731654806b8f61d37e5adcbed72c1abe099d4f58b5bb6e2baa0e4878ae",
+  "size": 15447,
+  "subdir": "osx-64",
+  "timestamp": 1574171165450,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytest-arraydiff-0.2-py38h39e3cac_0.conda",
+  "version": "0.2"
+}

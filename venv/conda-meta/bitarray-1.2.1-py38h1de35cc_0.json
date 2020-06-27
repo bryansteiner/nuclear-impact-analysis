@@ -1,0 +1,161 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/bitarray-1.2.1-py38h1de35cc_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/bitarray/__init__.py",
+    "lib/python3.8/site-packages/bitarray/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/__pycache__/test_bitarray.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/__pycache__/test_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/_bitarray.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/bitarray/_util.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/bitarray/test_bitarray.py",
+    "lib/python3.8/site-packages/bitarray/test_util.py",
+    "lib/python3.8/site-packages/bitarray/util.py"
+  ],
+  "fn": "bitarray-1.2.1-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "a962338d25bd2bd9d4f14925893aa1fc",
+  "legacy_bz2_size": 80853,
+  "license": "PSF",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/bitarray-1.2.1-py38h1de35cc_0",
+    "type": 1
+  },
+  "md5": "c1793473b0e10c9f5babf2b6be099aa6",
+  "name": "bitarray",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/bitarray-1.2.1-py38h1de35cc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ec1c566f3f903e82dd04a9615ceec9da531c9296dac1234d805c1322cc8375d7",
+        "sha256_in_prefix": "ec1c566f3f903e82dd04a9615ceec9da531c9296dac1234d805c1322cc8375d7",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0ac8d2b497fcdb9a34000d575e1da001c922f265b15390c9c445781822ee874f",
+        "sha256_in_prefix": "0ac8d2b497fcdb9a34000d575e1da001c922f265b15390c9c445781822ee874f",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4368f06ae57b49d5e56f6d1ccfe6e1f6f9fe050e2d940d4818d923fc65a7b1ef",
+        "sha256_in_prefix": "4368f06ae57b49d5e56f6d1ccfe6e1f6f9fe050e2d940d4818d923fc65a7b1ef",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "70b7687881e8b53c21e1e1d27bcab2f2e985ef3cf2c5433dd08f3315bdbfc618",
+        "sha256_in_prefix": "70b7687881e8b53c21e1e1d27bcab2f2e985ef3cf2c5433dd08f3315bdbfc618",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0a6f776acc544fb6166bbfc86e3a2d49b76336d7740dd1972f6aa96d67e7dc8b",
+        "sha256_in_prefix": "0a6f776acc544fb6166bbfc86e3a2d49b76336d7740dd1972f6aa96d67e7dc8b",
+        "size_in_bytes": 3266
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e03919e3ff288127ccb28194fc716eda0afc203f28c1fd7ef523dba39de7044",
+        "sha256_in_prefix": "2e03919e3ff288127ccb28194fc716eda0afc203f28c1fd7ef523dba39de7044",
+        "size_in_bytes": 4086
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/test_bitarray.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bbeed1e5ad72c0fd92c96793a3cecf3e331b6fc74e11305bd7d81532156f232",
+        "sha256_in_prefix": "8bbeed1e5ad72c0fd92c96793a3cecf3e331b6fc74e11305bd7d81532156f232",
+        "size_in_bytes": 70047
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/test_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "44cdbacf790fe25372697269aaad37fc63862b173f9945f99af9d0c5dd9113bf",
+        "sha256_in_prefix": "44cdbacf790fe25372697269aaad37fc63862b173f9945f99af9d0c5dd9113bf",
+        "size_in_bytes": 19219
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "de8479ea2cf463f593ee0f92bd3e0be23976c282c0d61e6bcef2e605a3b64fa6",
+        "sha256_in_prefix": "de8479ea2cf463f593ee0f92bd3e0be23976c282c0d61e6bcef2e605a3b64fa6",
+        "size_in_bytes": 6681
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/_bitarray.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/2052c7b0-550b-47af-6f16-bdd52c1a0f02/volume/bitarray_1580153320817/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7ab31837213c4746fb8d6318cfa862863aaacf67927243ef7e8be920bc382bd9",
+        "sha256_in_prefix": "a433bc46dc34f24d8cb41f6a24d174f614ea3642d82fafcd9ca3873d3f91d302",
+        "size_in_bytes": 62988
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/_util.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/2052c7b0-550b-47af-6f16-bdd52c1a0f02/volume/bitarray_1580153320817/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ea466e09382753acc0ac815f35edfe8644505c5fc132f0da09be5a2b91d3cd38",
+        "sha256_in_prefix": "f84bbef5b876c1f6d1d8ee9cd41411f7703aa944197c4e0f1b253ffc9ecdf7ac",
+        "size_in_bytes": 18000
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/test_bitarray.py",
+        "path_type": "hardlink",
+        "sha256": "28125d8d7d1a0e2c2b71210b440b4768e12919ae46ecf9707913b6a4151c0b23",
+        "sha256_in_prefix": "28125d8d7d1a0e2c2b71210b440b4768e12919ae46ecf9707913b6a4151c0b23",
+        "size_in_bytes": 78356
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "f3e23719a751b12cf54b6c8b6ec4885e1eea496504f34740331e4dbaeaaa6fea",
+        "sha256_in_prefix": "f3e23719a751b12cf54b6c8b6ec4885e1eea496504f34740331e4dbaeaaa6fea",
+        "size_in_bytes": 21941
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/util.py",
+        "path_type": "hardlink",
+        "sha256": "88b3e8599c7a973931ba2d964d1dd2c1fd514efea7743feb78784051f24cd559",
+        "sha256_in_prefix": "88b3e8599c7a973931ba2d964d1dd2c1fd514efea7743feb78784051f24cd559",
+        "size_in_bytes": 8402
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ed629e46efe288cd8ede1079d4f897d6ea2ed35f5234227fbf442886d4347e70",
+  "size": 81549,
+  "subdir": "osx-64",
+  "timestamp": 1580153416980,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bitarray-1.2.1-py38h1de35cc_0.conda",
+  "version": "1.2.1"
+}

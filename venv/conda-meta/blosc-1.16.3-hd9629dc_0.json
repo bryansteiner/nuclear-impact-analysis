@@ -1,0 +1,103 @@
+{
+  "build": "hd9629dc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "lz4-c >=1.8.1.2,<1.9.0a0",
+    "snappy >=1.1.7,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.3.7,<1.3.8.0a0"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/blosc-1.16.3-hd9629dc_0",
+  "features": "",
+  "files": [
+    "include/blosc-export.h",
+    "include/blosc.h",
+    "lib/libblosc.1.16.3.dylib",
+    "lib/libblosc.1.dylib",
+    "lib/libblosc.a",
+    "lib/libblosc.dylib",
+    "lib/pkgconfig/blosc.pc"
+  ],
+  "fn": "blosc-1.16.3-hd9629dc_0.conda",
+  "legacy_bz2_md5": "2821f16790617437df27df927ba15088",
+  "legacy_bz2_size": 65132,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/blosc-1.16.3-hd9629dc_0",
+    "type": 1
+  },
+  "md5": "823fdb260bcbf3c3033c854f22e4bf3e",
+  "name": "blosc",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/blosc-1.16.3-hd9629dc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/blosc-export.h",
+        "path_type": "hardlink",
+        "sha256": "35845da65bd13b4b610752116d8c0cae703cf22a86a007574133c35bc8395b20",
+        "sha256_in_prefix": "35845da65bd13b4b610752116d8c0cae703cf22a86a007574133c35bc8395b20",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "include/blosc.h",
+        "path_type": "hardlink",
+        "sha256": "e8b06a7db87a20bd487ba5b73fed3cbb59ee63342582bcd720d665b4ccf93f1c",
+        "sha256_in_prefix": "e8b06a7db87a20bd487ba5b73fed3cbb59ee63342582bcd720d665b4ccf93f1c",
+        "size_in_bytes": 20591
+      },
+      {
+        "_path": "lib/libblosc.1.16.3.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/a8d5cae3-080d-489a-69e3-973e574103b8/volume/blosc_1558554154951/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "93a072645fc0826ed30c774ac2b6b0952a65f38d9d15fd5b9e0ce1016951c56d",
+        "sha256_in_prefix": "7d74f192ccbbad240374fbbb0943d9ea37b539254960f30d6ea250d78e7d5b2d",
+        "size_in_bytes": 73188
+      },
+      {
+        "_path": "lib/libblosc.1.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/a8d5cae3-080d-489a-69e3-973e574103b8/volume/blosc_1558554154951/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "93a072645fc0826ed30c774ac2b6b0952a65f38d9d15fd5b9e0ce1016951c56d",
+        "size_in_bytes": 73188
+      },
+      {
+        "_path": "lib/libblosc.a",
+        "path_type": "hardlink",
+        "sha256": "bdc09222d438862f2e060b1a113707214d89774db8452d7161812a5566ddb6d7",
+        "sha256_in_prefix": "bdc09222d438862f2e060b1a113707214d89774db8452d7161812a5566ddb6d7",
+        "size_in_bytes": 76776
+      },
+      {
+        "_path": "lib/libblosc.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/a8d5cae3-080d-489a-69e3-973e574103b8/volume/blosc_1558554154951/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "93a072645fc0826ed30c774ac2b6b0952a65f38d9d15fd5b9e0ce1016951c56d",
+        "size_in_bytes": 73188
+      },
+      {
+        "_path": "lib/pkgconfig/blosc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "b1a3f3ddda4d326be465d9e6f50e10c0d6a92ca0d39ff8894f6dee471067dc81",
+        "sha256_in_prefix": "71d685ee033b993ce18581464a9148c292ba92d5f8c4cc97c0e2f92e63b86095",
+        "size_in_bytes": 339
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4db5327858b4501187d42ae4fcd31e28d409fb1755fdf2488c62bf8d42e0710f",
+  "size": 56778,
+  "subdir": "osx-64",
+  "timestamp": 1558554392687,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/blosc-1.16.3-hd9629dc_0.conda",
+  "version": "1.16.3"
+}

@@ -1,0 +1,856 @@
+{
+  "build": "py38_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/nose-1.3.7-py38_2",
+  "features": "",
+  "files": [
+    "bin/nosetests",
+    "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/entry_points.txt",
+    "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/nose/__init__.py",
+    "lib/python3.8/site-packages/nose/__main__.py",
+    "lib/python3.8/site-packages/nose/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/case.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/commands.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/exc.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/failure.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/importer.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/inspector.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/loader.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/proxy.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/pyversion.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/result.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/selector.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/suite.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/twistedtools.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/case.py",
+    "lib/python3.8/site-packages/nose/commands.py",
+    "lib/python3.8/site-packages/nose/config.py",
+    "lib/python3.8/site-packages/nose/core.py",
+    "lib/python3.8/site-packages/nose/exc.py",
+    "lib/python3.8/site-packages/nose/ext/__init__.py",
+    "lib/python3.8/site-packages/nose/ext/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/ext/__pycache__/dtcompat.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/ext/dtcompat.py",
+    "lib/python3.8/site-packages/nose/failure.py",
+    "lib/python3.8/site-packages/nose/importer.py",
+    "lib/python3.8/site-packages/nose/inspector.py",
+    "lib/python3.8/site-packages/nose/loader.py",
+    "lib/python3.8/site-packages/nose/plugins/__init__.py",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/allmodules.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/attrib.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/builtin.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/capture.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/collect.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/cover.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/debug.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/deprecated.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/doctests.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/errorclass.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/failuredetail.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/isolate.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/logcapture.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/multiprocess.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/plugintest.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/prof.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/skip.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/testid.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/__pycache__/xunit.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/plugins/allmodules.py",
+    "lib/python3.8/site-packages/nose/plugins/attrib.py",
+    "lib/python3.8/site-packages/nose/plugins/base.py",
+    "lib/python3.8/site-packages/nose/plugins/builtin.py",
+    "lib/python3.8/site-packages/nose/plugins/capture.py",
+    "lib/python3.8/site-packages/nose/plugins/collect.py",
+    "lib/python3.8/site-packages/nose/plugins/cover.py",
+    "lib/python3.8/site-packages/nose/plugins/debug.py",
+    "lib/python3.8/site-packages/nose/plugins/deprecated.py",
+    "lib/python3.8/site-packages/nose/plugins/doctests.py",
+    "lib/python3.8/site-packages/nose/plugins/errorclass.py",
+    "lib/python3.8/site-packages/nose/plugins/failuredetail.py",
+    "lib/python3.8/site-packages/nose/plugins/isolate.py",
+    "lib/python3.8/site-packages/nose/plugins/logcapture.py",
+    "lib/python3.8/site-packages/nose/plugins/manager.py",
+    "lib/python3.8/site-packages/nose/plugins/multiprocess.py",
+    "lib/python3.8/site-packages/nose/plugins/plugintest.py",
+    "lib/python3.8/site-packages/nose/plugins/prof.py",
+    "lib/python3.8/site-packages/nose/plugins/skip.py",
+    "lib/python3.8/site-packages/nose/plugins/testid.py",
+    "lib/python3.8/site-packages/nose/plugins/xunit.py",
+    "lib/python3.8/site-packages/nose/proxy.py",
+    "lib/python3.8/site-packages/nose/pyversion.py",
+    "lib/python3.8/site-packages/nose/result.py",
+    "lib/python3.8/site-packages/nose/selector.py",
+    "lib/python3.8/site-packages/nose/sphinx/__init__.py",
+    "lib/python3.8/site-packages/nose/sphinx/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/sphinx/__pycache__/pluginopts.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/sphinx/pluginopts.py",
+    "lib/python3.8/site-packages/nose/suite.py",
+    "lib/python3.8/site-packages/nose/tools/__init__.py",
+    "lib/python3.8/site-packages/nose/tools/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/tools/__pycache__/nontrivial.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/tools/__pycache__/trivial.cpython-38.pyc",
+    "lib/python3.8/site-packages/nose/tools/nontrivial.py",
+    "lib/python3.8/site-packages/nose/tools/trivial.py",
+    "lib/python3.8/site-packages/nose/twistedtools.py",
+    "lib/python3.8/site-packages/nose/usage.txt",
+    "lib/python3.8/site-packages/nose/util.py"
+  ],
+  "fn": "nose-1.3.7-py38_2.conda",
+  "legacy_bz2_md5": "a633485c7b3a26544d180569b6dac69c",
+  "legacy_bz2_size": 220184,
+  "license": "LGPL-2.1",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/nose-1.3.7-py38_2",
+    "type": 1
+  },
+  "md5": "c5d10f68b2ed7005854f58357eb8fccd",
+  "name": "nose",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/nose-1.3.7-py38_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nosetests",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "f659a72e798c2a8d5df85c1c90f11b08188a46c85f3640a095fe718837781e34",
+        "sha256_in_prefix": "ea139048293f9606695e131e12823566956b53f5a3ccff80394f66883b61e19c",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ef4cb8c661dc78cf9296134443fc153531d67f1a7c52671c55b44c0d94da8890",
+        "sha256_in_prefix": "ef4cb8c661dc78cf9296134443fc153531d67f1a7c52671c55b44c0d94da8890",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "b8330097b92fae7dc82d936cb9913328f391fce1a45f5b6047bda98d75e40698",
+        "sha256_in_prefix": "b8330097b92fae7dc82d936cb9913328f391fce1a45f5b6047bda98d75e40698",
+        "size_in_bytes": 17013
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "0fb380f0e874c5931c2d06645ce9e12a072dc11c80137a20e0dd00f41b7fa2d9",
+        "sha256_in_prefix": "0fb380f0e874c5931c2d06645ce9e12a072dc11c80137a20e0dd00f41b7fa2d9",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose-1.3.7-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "97eef643266877378c5e0a8be5c8be58b99575c77ed4f89321f307f676de4b59",
+        "sha256_in_prefix": "97eef643266877378c5e0a8be5c8be58b99575c77ed4f89321f307f676de4b59",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aa181a28e4da244f70d009e16854ca746024bdf92de6f0f80c7db4b9686e8218",
+        "sha256_in_prefix": "aa181a28e4da244f70d009e16854ca746024bdf92de6f0f80c7db4b9686e8218",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "89e64987aa2fb7bdc6fc3b424310c6d2583ed99481aaf056098f68584cb6f511",
+        "sha256_in_prefix": "89e64987aa2fb7bdc6fc3b424310c6d2583ed99481aaf056098f68584cb6f511",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3221cfc5b858cff13a8ab2dc1542c9462a33db7ae5527248624ef0cb973bcaeb",
+        "sha256_in_prefix": "3221cfc5b858cff13a8ab2dc1542c9462a33db7ae5527248624ef0cb973bcaeb",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "684a29b6c8336c2add58f7552849f2a7892fb38a3b054989c85173bc8de91a6f",
+        "sha256_in_prefix": "684a29b6c8336c2add58f7552849f2a7892fb38a3b054989c85173bc8de91a6f",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/case.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7eb0e4202f7c6d7cd93471014b5813083b530eaa5e77ec37472db4894b4d4728",
+        "sha256_in_prefix": "7eb0e4202f7c6d7cd93471014b5813083b530eaa5e77ec37472db4894b4d4728",
+        "size_in_bytes": 12113
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/commands.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "294bdae52e8e63d2184657d00fb73ed42e7a92b72e7a961b14618ad6b80cd964",
+        "sha256_in_prefix": "294bdae52e8e63d2184657d00fb73ed42e7a92b72e7a961b14618ad6b80cd964",
+        "size_in_bytes": 5202
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "65a5c42201b79ef433be9b010813046776b5f9ffe99407bb5dab3cf0db619ea3",
+        "sha256_in_prefix": "65a5c42201b79ef433be9b010813046776b5f9ffe99407bb5dab3cf0db619ea3",
+        "size_in_bytes": 20452
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/core.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b09939a467180b0cd56d6c2edc2843c1d45f0ed5929e9ce956a3676ecd40f1f",
+        "sha256_in_prefix": "6b09939a467180b0cd56d6c2edc2843c1d45f0ed5929e9ce956a3676ecd40f1f",
+        "size_in_bytes": 11275
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/exc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "61c3d35a0d99e60142850067a2a04e36007f8c8f07a13d7d7f89a01348a14fd2",
+        "sha256_in_prefix": "61c3d35a0d99e60142850067a2a04e36007f8c8f07a13d7d7f89a01348a14fd2",
+        "size_in_bytes": 541
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/failure.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "37974eb2850c1c35a6edb298d1ab2e43f96fba3c8ac1e9e0a646af7df553110a",
+        "sha256_in_prefix": "37974eb2850c1c35a6edb298d1ab2e43f96fba3c8ac1e9e0a646af7df553110a",
+        "size_in_bytes": 1568
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/importer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "98dd3e407e016451343f3a3f0bfd59d6f12d6bd6e8f91fa62f1981f2cf8c38ab",
+        "sha256_in_prefix": "98dd3e407e016451343f3a3f0bfd59d6f12d6bd6e8f91fa62f1981f2cf8c38ab",
+        "size_in_bytes": 4524
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/inspector.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "15915531ef420a7945d13e1e64e03296a4119aaf4fd35753ddd4f8c4ba54e700",
+        "sha256_in_prefix": "15915531ef420a7945d13e1e64e03296a4119aaf4fd35753ddd4f8c4ba54e700",
+        "size_in_bytes": 4928
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/loader.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b4ed522c98cb76822b8441dc5f42cc3891f169ea1fe96893051fa6877ea6739",
+        "sha256_in_prefix": "7b4ed522c98cb76822b8441dc5f42cc3891f169ea1fe96893051fa6877ea6739",
+        "size_in_bytes": 16336
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/proxy.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f33af6a3adb9cc0fc8d7b9b0c762da739dc06de32232510d15d3033afa6181e0",
+        "sha256_in_prefix": "f33af6a3adb9cc0fc8d7b9b0c762da739dc06de32232510d15d3033afa6181e0",
+        "size_in_bytes": 6705
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/pyversion.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c684ab1ffedf92dcc11aa8590a3e6e7c55baa6aa1a23976b5adb365431d9fb2a",
+        "sha256_in_prefix": "c684ab1ffedf92dcc11aa8590a3e6e7c55baa6aa1a23976b5adb365431d9fb2a",
+        "size_in_bytes": 6720
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/result.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c437270e753cf8cee9b04685b77857dd3593aa2c540ad30d015659625d2d9fbb",
+        "sha256_in_prefix": "c437270e753cf8cee9b04685b77857dd3593aa2c540ad30d015659625d2d9fbb",
+        "size_in_bytes": 5791
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/selector.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f715ac037de8dda6411054781253cc50ca7775a63d034643683f06fdc179d931",
+        "sha256_in_prefix": "f715ac037de8dda6411054781253cc50ca7775a63d034643683f06fdc179d931",
+        "size_in_bytes": 8212
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/suite.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3bdeb61eec9ad9dc6ae6834fe566f58a40285860452351819395d03cf1e77c1",
+        "sha256_in_prefix": "f3bdeb61eec9ad9dc6ae6834fe566f58a40285860452351819395d03cf1e77c1",
+        "size_in_bytes": 18046
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/twistedtools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd5ae3e9c033ca6d19ea8a5086a5d8c5295ccd4f2302ed08687ab0a088a89855",
+        "sha256_in_prefix": "cd5ae3e9c033ca6d19ea8a5086a5d8c5295ccd4f2302ed08687ab0a088a89855",
+        "size_in_bytes": 5502
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "daaba8aa1d255e3c53f4e1301679d076716475d22106958a9988cbb7222c9a5b",
+        "sha256_in_prefix": "daaba8aa1d255e3c53f4e1301679d076716475d22106958a9988cbb7222c9a5b",
+        "size_in_bytes": 17801
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/case.py",
+        "path_type": "hardlink",
+        "sha256": "2a47024df51b1b84aac642ce634d040236b2fdac16605d9ec9ae380c89526794",
+        "sha256_in_prefix": "2a47024df51b1b84aac642ce634d040236b2fdac16605d9ec9ae380c89526794",
+        "size_in_bytes": 13181
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/commands.py",
+        "path_type": "hardlink",
+        "sha256": "1b3d1734824bb6aa67c95d6db3e712b1a14a91ea9b970de81400d98e8c8d4037",
+        "sha256_in_prefix": "1b3d1734824bb6aa67c95d6db3e712b1a14a91ea9b970de81400d98e8c8d4037",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/config.py",
+        "path_type": "hardlink",
+        "sha256": "baf26f1a82d935e03c1ba44a076d139aec04a40c397a40c2fa663d2428ff48b9",
+        "sha256_in_prefix": "baf26f1a82d935e03c1ba44a076d139aec04a40c397a40c2fa663d2428ff48b9",
+        "size_in_bytes": 25282
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/core.py",
+        "path_type": "hardlink",
+        "sha256": "6076bd883ec61ac602a839dea10dd0266d6159f81ac7910bd308ff523274297f",
+        "sha256_in_prefix": "6076bd883ec61ac602a839dea10dd0266d6159f81ac7910bd308ff523274297f",
+        "size_in_bytes": 13071
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/exc.py",
+        "path_type": "hardlink",
+        "sha256": "3b1842c54a5c54fb405ad119e127bce88b9135524944c4bf858418df71c06759",
+        "sha256_in_prefix": "3b1842c54a5c54fb405ad119e127bce88b9135524944c4bf858418df71c06759",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/ext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5eb7f3a94124e11e824729178bc8b1dc6ab7eee927c6c27eea90d59373c49ba6",
+        "sha256_in_prefix": "5eb7f3a94124e11e824729178bc8b1dc6ab7eee927c6c27eea90d59373c49ba6",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/ext/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2282f1bc6757de16ea5a4cf125a4f9b542efcaf96600618f7178cf4676726da4",
+        "sha256_in_prefix": "2282f1bc6757de16ea5a4cf125a4f9b542efcaf96600618f7178cf4676726da4",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/ext/__pycache__/dtcompat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b72ebf6adb0cda3a4e9fcd4b20b530e74d386538eb9c530933d270e3136d5ba",
+        "sha256_in_prefix": "6b72ebf6adb0cda3a4e9fcd4b20b530e74d386538eb9c530933d270e3136d5ba",
+        "size_in_bytes": 61799
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/ext/dtcompat.py",
+        "path_type": "hardlink",
+        "sha256": "3a34e8adfcff7820351ea47620433fb27fb825edefecb9122838f9fa188f3537",
+        "sha256_in_prefix": "3a34e8adfcff7820351ea47620433fb27fb825edefecb9122838f9fa188f3537",
+        "size_in_bytes": 88113
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/failure.py",
+        "path_type": "hardlink",
+        "sha256": "bf935d1f0c07fe4d16db754cc9a0fe8d7631a09e649c1d6fb26e825d8270daad",
+        "sha256_in_prefix": "bf935d1f0c07fe4d16db754cc9a0fe8d7631a09e649c1d6fb26e825d8270daad",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/importer.py",
+        "path_type": "hardlink",
+        "sha256": "cf5b2d992dc6fbdd19e894f3e990394e18feba00e074af4ce6cddeaba63c0989",
+        "sha256_in_prefix": "cf5b2d992dc6fbdd19e894f3e990394e18feba00e074af4ce6cddeaba63c0989",
+        "size_in_bytes": 5978
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/inspector.py",
+        "path_type": "hardlink",
+        "sha256": "0108b7351d54f86ef953618cf0fc9f014650f6ab22cbeb67d83581713d0b6bf2",
+        "sha256_in_prefix": "0108b7351d54f86ef953618cf0fc9f014650f6ab22cbeb67d83581713d0b6bf2",
+        "size_in_bytes": 6975
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/loader.py",
+        "path_type": "hardlink",
+        "sha256": "4eea58635bfc8f3d0638fb80fe2160d28d77132581464d9bbff76284b7387fdf",
+        "sha256_in_prefix": "4eea58635bfc8f3d0638fb80fe2160d28d77132581464d9bbff76284b7387fdf",
+        "size_in_bytes": 25487
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6c531dd189d7be5f6e8ff61b69aec1d883fa50f501868debab2eed134848de0b",
+        "sha256_in_prefix": "6c531dd189d7be5f6e8ff61b69aec1d883fa50f501868debab2eed134848de0b",
+        "size_in_bytes": 6291
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "35a6d78d9b1f54517ad6296ac77068431052842f78399db5ea17d35388e29dcb",
+        "sha256_in_prefix": "35a6d78d9b1f54517ad6296ac77068431052842f78399db5ea17d35388e29dcb",
+        "size_in_bytes": 6472
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/allmodules.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "65edb606deed4d95dcdd2c8cd23fb4a1229ed809f1f798709623b361f03b0a89",
+        "sha256_in_prefix": "65edb606deed4d95dcdd2c8cd23fb4a1229ed809f1f798709623b361f03b0a89",
+        "size_in_bytes": 2058
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/attrib.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b734cfe2e3e79b43c5b35bb7ba6ce72167680df8947928dadd12834f6f46954",
+        "sha256_in_prefix": "6b734cfe2e3e79b43c5b35bb7ba6ce72167680df8947928dadd12834f6f46954",
+        "size_in_bytes": 8083
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/base.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f499904e108494427be07fa2d063c1be14585e7c3e4d023901f865f219cdb9e",
+        "sha256_in_prefix": "0f499904e108494427be07fa2d063c1be14585e7c3e4d023901f865f219cdb9e",
+        "size_in_bytes": 29013
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/builtin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e75236e537db8991b77560bad8c3901122b7e35c6391d67fd98820b0909d0ec",
+        "sha256_in_prefix": "4e75236e537db8991b77560bad8c3901122b7e35c6391d67fd98820b0909d0ec",
+        "size_in_bytes": 998
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/capture.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1def6e5b1c701a0f57afa9bd4f68e506d1bb37f147dcd1f1dfb14855fd1194b0",
+        "sha256_in_prefix": "1def6e5b1c701a0f57afa9bd4f68e506d1bb37f147dcd1f1dfb14855fd1194b0",
+        "size_in_bytes": 4029
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/collect.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf2fa5387a96805a38a9943e80c27265221c638bcc676e124d8e7a5476cc795b",
+        "sha256_in_prefix": "bf2fa5387a96805a38a9943e80c27265221c638bcc676e124d8e7a5476cc795b",
+        "size_in_bytes": 3673
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/cover.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "77cd4b88f0911205ffe9b6b3e6211a5c79bc41b943606ecf8263434464a2a7d5",
+        "sha256_in_prefix": "77cd4b88f0911205ffe9b6b3e6211a5c79bc41b943606ecf8263434464a2a7d5",
+        "size_in_bytes": 8347
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/debug.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1af6441e05bbae0c0f181d1193f876d87f6e85b31bc0759b9cabb467ab63d1a",
+        "sha256_in_prefix": "f1af6441e05bbae0c0f181d1193f876d87f6e85b31bc0759b9cabb467ab63d1a",
+        "size_in_bytes": 2317
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/deprecated.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f790b4c2d1e3edbdad1b3c062202e40260a6e59c7cbcb3b3ee386b43f702bed7",
+        "sha256_in_prefix": "f790b4c2d1e3edbdad1b3c062202e40260a6e59c7cbcb3b3ee386b43f702bed7",
+        "size_in_bytes": 1877
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/doctests.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "47d140beed91e058c5e54041a3c317d04957efee7c0ec3b2aa7c2b129b568576",
+        "sha256_in_prefix": "47d140beed91e058c5e54041a3c317d04957efee7c0ec3b2aa7c2b129b568576",
+        "size_in_bytes": 14972
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/errorclass.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "318405c3f601f132beabad03157d163fe186354d2a3656c1e41abb75a902056f",
+        "sha256_in_prefix": "318405c3f601f132beabad03157d163fe186354d2a3656c1e41abb75a902056f",
+        "size_in_bytes": 7905
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/failuredetail.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e15ced7edbe9e97044b6651fa71aec7face0324c1b83256d5155560e935bfe99",
+        "sha256_in_prefix": "e15ced7edbe9e97044b6651fa71aec7face0324c1b83256d5155560e935bfe99",
+        "size_in_bytes": 1951
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/isolate.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d3d197ae0a2a4bfd0ef86d53301d7b22ecd10bcd9d01ed8ac926197e6319658",
+        "sha256_in_prefix": "2d3d197ae0a2a4bfd0ef86d53301d7b22ecd10bcd9d01ed8ac926197e6319658",
+        "size_in_bytes": 4435
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/logcapture.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fd74f21a33642f2cc2b1a48055f2be939b510cde66155274b1639a0a7ff90ec",
+        "sha256_in_prefix": "6fd74f21a33642f2cc2b1a48055f2be939b510cde66155274b1639a0a7ff90ec",
+        "size_in_bytes": 9189
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/manager.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8616b97de130ba2089574ee277d9c5acd9c8e50695614891f1f61acd85b29eb1",
+        "sha256_in_prefix": "8616b97de130ba2089574ee277d9c5acd9c8e50695614891f1f61acd85b29eb1",
+        "size_in_bytes": 16836
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/multiprocess.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9132c7adc958b25597a31a5270cd80a2dce4e62f4bf5e7c7e258f973058292f2",
+        "sha256_in_prefix": "9132c7adc958b25597a31a5270cd80a2dce4e62f4bf5e7c7e258f973058292f2",
+        "size_in_bytes": 23574
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/plugintest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "466e018dd7f88628cc60f67a0544556aa5be7f6b74ebc359f1263bf403916777",
+        "sha256_in_prefix": "466e018dd7f88628cc60f67a0544556aa5be7f6b74ebc359f1263bf403916777",
+        "size_in_bytes": 13864
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/prof.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1395a85bced5cd332011d9c89bdd647e24d07c8a44379cee181588fbb3cfc08f",
+        "sha256_in_prefix": "1395a85bced5cd332011d9c89bdd647e24d07c8a44379cee181588fbb3cfc08f",
+        "size_in_bytes": 4442
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/skip.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f3f46ac631f3d95fad2de5218f09b24c15506f893e664ddb207d9fc3d6e2c25",
+        "sha256_in_prefix": "2f3f46ac631f3d95fad2de5218f09b24c15506f893e664ddb207d9fc3d6e2c25",
+        "size_in_bytes": 2163
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/testid.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0fcb96ebf6ea29dc9472408ef1b576ae63c1ed25d05164823cfd02113fb7234f",
+        "sha256_in_prefix": "0fcb96ebf6ea29dc9472408ef1b576ae63c1ed25d05164823cfd02113fb7234f",
+        "size_in_bytes": 7995
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/__pycache__/xunit.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "590dc023b988a851b297ae689ad3e0ce7aac7cb91fbae92a1557de4b0e6d454e",
+        "sha256_in_prefix": "590dc023b988a851b297ae689ad3e0ce7aac7cb91fbae92a1557de4b0e6d454e",
+        "size_in_bytes": 11207
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/allmodules.py",
+        "path_type": "hardlink",
+        "sha256": "cf604fd24952332a0d4afdd0e59afc6752e19a0c4b67fe3c6b3a66b98efb7693",
+        "sha256_in_prefix": "cf604fd24952332a0d4afdd0e59afc6752e19a0c4b67fe3c6b3a66b98efb7693",
+        "size_in_bytes": 1720
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/attrib.py",
+        "path_type": "hardlink",
+        "sha256": "09c9037f20c3f2b1dcb92275552988656a2e83824027ffde3e3446b2e15e8680",
+        "sha256_in_prefix": "09c9037f20c3f2b1dcb92275552988656a2e83824027ffde3e3446b2e15e8680",
+        "size_in_bytes": 9666
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/base.py",
+        "path_type": "hardlink",
+        "sha256": "fd91bca2cf57982d572e58724813b834ec9244666fab04345bf0e64b92228345",
+        "sha256_in_prefix": "fd91bca2cf57982d572e58724813b834ec9244666fab04345bf0e64b92228345",
+        "size_in_bytes": 26058
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/builtin.py",
+        "path_type": "hardlink",
+        "sha256": "c4f8e0dc4507bb3760c68bd29e56496a727ad906def705f2f15d0437d5fefcce",
+        "sha256_in_prefix": "c4f8e0dc4507bb3760c68bd29e56496a727ad906def705f2f15d0437d5fefcce",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/capture.py",
+        "path_type": "hardlink",
+        "sha256": "0c713874b940b384d3fb238ff4898660fa56b9786786142b8b244a50e7e847ea",
+        "sha256_in_prefix": "0c713874b940b384d3fb238ff4898660fa56b9786786142b8b244a50e7e847ea",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/collect.py",
+        "path_type": "hardlink",
+        "sha256": "664d942b58a933a4ff08605289aae570fd5c36861a9bdee8ae4b56be53de5cf5",
+        "sha256_in_prefix": "664d942b58a933a4ff08605289aae570fd5c36861a9bdee8ae4b56be53de5cf5",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/cover.py",
+        "path_type": "hardlink",
+        "sha256": "86fa564d69f756ffee9d9eb22efb7d82ca33008870cf0dd631366a812f959bda",
+        "sha256_in_prefix": "86fa564d69f756ffee9d9eb22efb7d82ca33008870cf0dd631366a812f959bda",
+        "size_in_bytes": 11677
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/debug.py",
+        "path_type": "hardlink",
+        "sha256": "c1b2049e9fb00e6fa2a4a5aaa146b6e72f08c1bab379fbc86c3f307b728109e5",
+        "sha256_in_prefix": "c1b2049e9fb00e6fa2a4a5aaa146b6e72f08c1bab379fbc86c3f307b728109e5",
+        "size_in_bytes": 2272
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/deprecated.py",
+        "path_type": "hardlink",
+        "sha256": "ae84b1cb52c5b2c47b0df31a454895023af58c861b724eb35ea93902d8a79724",
+        "sha256_in_prefix": "ae84b1cb52c5b2c47b0df31a454895023af58c861b724eb35ea93902d8a79724",
+        "size_in_bytes": 1551
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/doctests.py",
+        "path_type": "hardlink",
+        "sha256": "3ef07a29272d6ad443becb4fc90a346a84c3decb91c6f36ae7fd7264273dad55",
+        "sha256_in_prefix": "3ef07a29272d6ad443becb4fc90a346a84c3decb91c6f36ae7fd7264273dad55",
+        "size_in_bytes": 17478
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/errorclass.py",
+        "path_type": "hardlink",
+        "sha256": "c572210c5691b0eac3a4c7ef2c835f2980ef8465d986e4c3172f2168af8ab84e",
+        "sha256_in_prefix": "c572210c5691b0eac3a4c7ef2c835f2980ef8465d986e4c3172f2168af8ab84e",
+        "size_in_bytes": 7275
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/failuredetail.py",
+        "path_type": "hardlink",
+        "sha256": "a19d0479bc70353a3b861ee160a39e67028deb4f0e73a9ce2c0c5af3fe13eb39",
+        "sha256_in_prefix": "a19d0479bc70353a3b861ee160a39e67028deb4f0e73a9ce2c0c5af3fe13eb39",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/isolate.py",
+        "path_type": "hardlink",
+        "sha256": "a9e57c355c3aeca512dc99e813e1361625603e816a29d6e51f3c5e762b0af1b3",
+        "sha256_in_prefix": "a9e57c355c3aeca512dc99e813e1361625603e816a29d6e51f3c5e762b0af1b3",
+        "size_in_bytes": 3756
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/logcapture.py",
+        "path_type": "hardlink",
+        "sha256": "6ccdede39ce99101960d7e8749388efd1a0c890cea85dc38751a1e757c1c2469",
+        "sha256_in_prefix": "6ccdede39ce99101960d7e8749388efd1a0c890cea85dc38751a1e757c1c2469",
+        "size_in_bytes": 9358
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/manager.py",
+        "path_type": "hardlink",
+        "sha256": "b252f198e64d80a8d14c7cd82a840a820b5820c1ea32bbbb522aa06bdf1c1089",
+        "sha256_in_prefix": "b252f198e64d80a8d14c7cd82a840a820b5820c1ea32bbbb522aa06bdf1c1089",
+        "size_in_bytes": 15577
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/multiprocess.py",
+        "path_type": "hardlink",
+        "sha256": "06265cf6fc4fb10903c09c665b7471e12dd3660e499986d39fd5cb327e72bce0",
+        "sha256_in_prefix": "06265cf6fc4fb10903c09c665b7471e12dd3660e499986d39fd5cb327e72bce0",
+        "size_in_bytes": 35286
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/plugintest.py",
+        "path_type": "hardlink",
+        "sha256": "1e3630126361f91876cbdf6b520317ed73d9a4eabb44ed6ea90a68acf90b260f",
+        "sha256_in_prefix": "1e3630126361f91876cbdf6b520317ed73d9a4eabb44ed6ea90a68acf90b260f",
+        "size_in_bytes": 13533
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/prof.py",
+        "path_type": "hardlink",
+        "sha256": "cd3b26e5b96b2babfbd5fe2c469def3001727643d95883778937c361cb60c96c",
+        "sha256_in_prefix": "cd3b26e5b96b2babfbd5fe2c469def3001727643d95883778937c361cb60c96c",
+        "size_in_bytes": 5357
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/skip.py",
+        "path_type": "hardlink",
+        "sha256": "8feaa55ae2fee4f18697436ed737a0fda802e4c380c7ce7e9025e5b01fb076b0",
+        "sha256_in_prefix": "8feaa55ae2fee4f18697436ed737a0fda802e4c380c7ce7e9025e5b01fb076b0",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/testid.py",
+        "path_type": "hardlink",
+        "sha256": "0485cb02e49156d64f555ca483b9271ea4c7d33563213b9ef0a202282a4f554c",
+        "sha256_in_prefix": "0485cb02e49156d64f555ca483b9271ea4c7d33563213b9ef0a202282a4f554c",
+        "size_in_bytes": 9917
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/plugins/xunit.py",
+        "path_type": "hardlink",
+        "sha256": "01812c14538841f2540486322f917f254476b2f3a8852e8fa144eecfb839c592",
+        "sha256_in_prefix": "01812c14538841f2540486322f917f254476b2f3a8852e8fa144eecfb839c592",
+        "size_in_bytes": 11645
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/proxy.py",
+        "path_type": "hardlink",
+        "sha256": "facc51d15be2d98278babd314fbc28aaf05b70c55c9be2e492cc7feccf6a50c2",
+        "sha256_in_prefix": "facc51d15be2d98278babd314fbc28aaf05b70c55c9be2e492cc7feccf6a50c2",
+        "size_in_bytes": 6879
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/pyversion.py",
+        "path_type": "hardlink",
+        "sha256": "8782156edb72fe0cce3fa7391fa9c13fee7fa29b42080ba6317605af7c3d9cc5",
+        "sha256_in_prefix": "8782156edb72fe0cce3fa7391fa9c13fee7fa29b42080ba6317605af7c3d9cc5",
+        "size_in_bytes": 7454
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/result.py",
+        "path_type": "hardlink",
+        "sha256": "203fdafbfba194829388c6aeb5aca9970585c6567d0f9af58258d69e47fc9dc5",
+        "sha256_in_prefix": "203fdafbfba194829388c6aeb5aca9970585c6567d0f9af58258d69e47fc9dc5",
+        "size_in_bytes": 6741
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/selector.py",
+        "path_type": "hardlink",
+        "sha256": "5f07f4e5fe0b6689625ce4e3aac3759ac47424ecf5420ba4dadef03745064e89",
+        "sha256_in_prefix": "5f07f4e5fe0b6689625ce4e3aac3759ac47424ecf5420ba4dadef03745064e89",
+        "size_in_bytes": 8985
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/sphinx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+        "sha256_in_prefix": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/sphinx/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "10f3d8b6b79005d7eb2ac01977200e49b896be8e5fe65fec5927a46709b5e7d4",
+        "sha256_in_prefix": "10f3d8b6b79005d7eb2ac01977200e49b896be8e5fe65fec5927a46709b5e7d4",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/sphinx/__pycache__/pluginopts.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "afe0f29b856a1711ef9e768bf7b1982abfa7317d1db4d8fe405e3450acdcd81e",
+        "sha256_in_prefix": "afe0f29b856a1711ef9e768bf7b1982abfa7317d1db4d8fe405e3450acdcd81e",
+        "size_in_bytes": 5141
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/sphinx/pluginopts.py",
+        "path_type": "hardlink",
+        "sha256": "97a0acdde20c930684b0cc147fbd4ec8fd0f2a19c404d4fb0a8c85bbc01c05b9",
+        "sha256_in_prefix": "97a0acdde20c930684b0cc147fbd4ec8fd0f2a19c404d4fb0a8c85bbc01c05b9",
+        "size_in_bytes": 5638
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/suite.py",
+        "path_type": "hardlink",
+        "sha256": "99e373165ace4124b403809a27041d35bc88187f89a848f268d686b3b2ad93f6",
+        "sha256_in_prefix": "99e373165ace4124b403809a27041d35bc88187f89a848f268d686b3b2ad93f6",
+        "size_in_bytes": 22314
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7f267714e491d59a9ebbade93297e474cc19693e28a811bed5d7ffc0186a069e",
+        "sha256_in_prefix": "7f267714e491d59a9ebbade93297e474cc19693e28a811bed5d7ffc0186a069e",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/tools/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c586fe155d83d8413565ca4a8f0a4576af0823289b06475745201fcd4dceae96",
+        "sha256_in_prefix": "c586fe155d83d8413565ca4a8f0a4576af0823289b06475745201fcd4dceae96",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/tools/__pycache__/nontrivial.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "76b566f800a7d7d4d493ff6bd835f96edbf1bea610891645619123d6bfd57768",
+        "sha256_in_prefix": "76b566f800a7d7d4d493ff6bd835f96edbf1bea610891645619123d6bfd57768",
+        "size_in_bytes": 4702
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/tools/__pycache__/trivial.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fb8b9f8ed9f4824744ea2cd10f2714010b9cc86b439e39123c30123382e1697",
+        "sha256_in_prefix": "1fb8b9f8ed9f4824744ea2cd10f2714010b9cc86b439e39123c30123382e1697",
+        "size_in_bytes": 1737
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/tools/nontrivial.py",
+        "path_type": "hardlink",
+        "sha256": "607b310c39599d06b37e77b689681a58170cfc6a5f96e6615b7df4047b1b9f44",
+        "sha256_in_prefix": "607b310c39599d06b37e77b689681a58170cfc6a5f96e6615b7df4047b1b9f44",
+        "size_in_bytes": 4170
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/tools/trivial.py",
+        "path_type": "hardlink",
+        "sha256": "43588d8c4ec36ddfb1c5f627dba904033dcba63f22dc706adb1a77fecece53a6",
+        "sha256_in_prefix": "43588d8c4ec36ddfb1c5f627dba904033dcba63f22dc706adb1a77fecece53a6",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/twistedtools.py",
+        "path_type": "hardlink",
+        "sha256": "f048be980e8de6c3f81874217b8d78b2d3f17c49b9fd0cbc9ad172dfa0fe6d5a",
+        "sha256_in_prefix": "f048be980e8de6c3f81874217b8d78b2d3f17c49b9fd0cbc9ad172dfa0fe6d5a",
+        "size_in_bytes": 5540
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/usage.txt",
+        "path_type": "hardlink",
+        "sha256": "5985ebadc1e32235cf6f8417ce1bc76c3eab0c8b0a8dcd4fe2e033007b78729d",
+        "sha256_in_prefix": "5985ebadc1e32235cf6f8417ce1bc76c3eab0c8b0a8dcd4fe2e033007b78729d",
+        "size_in_bytes": 4425
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nose/util.py",
+        "path_type": "hardlink",
+        "sha256": "531f1a66bacebec682f45812d3b77582977ff751e81b19949b8daeda694b182f",
+        "sha256_in_prefix": "531f1a66bacebec682f45812d3b77582977ff751e81b19949b8daeda694b182f",
+        "size_in_bytes": 20334
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "334932e4596de57547671582fd45e6e386685da394c209e122eff2333a9416a2",
+  "size": 222560,
+  "subdir": "osx-64",
+  "timestamp": 1573144041143,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/nose-1.3.7-py38_2.conda",
+  "version": "1.3.7"
+}

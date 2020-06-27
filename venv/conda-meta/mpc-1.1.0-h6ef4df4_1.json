@@ -1,0 +1,91 @@
+{
+  "build": "h6ef4df4_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "mpfr >=4.0.1,<5.0a0"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/mpc-1.1.0-h6ef4df4_1",
+  "features": "",
+  "files": [
+    "include/mpc.h",
+    "lib/libmpc.3.dylib",
+    "lib/libmpc.a",
+    "lib/libmpc.dylib",
+    "lib/libmpc.la",
+    "share/info/mpc.info"
+  ],
+  "fn": "mpc-1.1.0-h6ef4df4_1.conda",
+  "legacy_bz2_md5": "e3f4e5825d7495329009da2529626af2",
+  "legacy_bz2_size": 92037,
+  "license": "LGPL 3",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/mpc-1.1.0-h6ef4df4_1",
+    "type": 1
+  },
+  "md5": "0e14a992fa619dc477cc7c18f83e3460",
+  "name": "mpc",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/mpc-1.1.0-h6ef4df4_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/mpc.h",
+        "path_type": "hardlink",
+        "sha256": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "sha256_in_prefix": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "size_in_bytes": 12898
+      },
+      {
+        "_path": "lib/libmpc.3.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/a0669137-3812-4968-46a9-58d09331d299/volume/mpc_1527612450037/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "8c76abdfc04a8316abe3391328f9f086fc05408dd05dd626e42d5b5fd9933c51",
+        "sha256_in_prefix": "bc5aa10a118b8e8a06dd328d4bdcb8d7f03bd424a7af41585bbff552d1cccf68",
+        "size_in_bytes": 91808
+      },
+      {
+        "_path": "lib/libmpc.a",
+        "path_type": "hardlink",
+        "sha256": "6fe24faeb3953dd61468cdd7312bf96de121187d3510e34849328e101fc832be",
+        "sha256_in_prefix": "6fe24faeb3953dd61468cdd7312bf96de121187d3510e34849328e101fc832be",
+        "size_in_bytes": 161096
+      },
+      {
+        "_path": "lib/libmpc.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/a0669137-3812-4968-46a9-58d09331d299/volume/mpc_1527612450037/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "8c76abdfc04a8316abe3391328f9f086fc05408dd05dd626e42d5b5fd9933c51",
+        "size_in_bytes": 91808
+      },
+      {
+        "_path": "lib/libmpc.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "fabbcbb76533d7903d6f16f29e14a70a0867da1b44720409c813a45140308e75",
+        "sha256_in_prefix": "0f3fda4f556b5f780fdca8b11d5dae3e4c4f68c660cab5ec62b1c1f614dc9820",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "share/info/mpc.info",
+        "path_type": "hardlink",
+        "sha256": "661e792cc57d4703578a943aa2ba3fd9f87aa8c8ab9b1954e7b7c67f6a4d5789",
+        "sha256_in_prefix": "661e792cc57d4703578a943aa2ba3fd9f87aa8c8ab9b1954e7b7c67f6a4d5789",
+        "size_in_bytes": 88514
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5648edaa914976acec65c775cb7900b6ad84bd7274e6e59cb1897b90c9f658e4",
+  "size": 85790,
+  "subdir": "osx-64",
+  "timestamp": 1527612755603,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mpc-1.1.0-h6ef4df4_1.conda",
+  "version": "1.1.0"
+}

@@ -1,7 +1,6 @@
 appdirs==1.4.4
 appnope==0.1.0
 backcall==0.2.0
-basemap==1.2.1
 beautifulsoup4==4.9.1
 branca==0.4.1
 bs4==0.0.1

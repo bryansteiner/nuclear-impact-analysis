@@ -1,0 +1,124 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "psutil",
+    "pytest >=3.1",
+    "python"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/pytest-openfiles-0.4.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/pytest_openfiles-0.4.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pytest_openfiles-0.4.0.dist-info/LICENSE.rst",
+    "lib/python3.8/site-packages/pytest_openfiles-0.4.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/pytest_openfiles-0.4.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/pytest_openfiles-0.4.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pytest_openfiles-0.4.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pytest_openfiles-0.4.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pytest_openfiles/__init__.py",
+    "lib/python3.8/site-packages/pytest_openfiles/plugin.py",
+    "lib/python3.8/site-packages/pytest_openfiles/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pytest_openfiles/__pycache__/plugin.cpython-38.pyc"
+  ],
+  "fn": "pytest-openfiles-0.4.0-py_0.conda",
+  "legacy_bz2_md5": "ce4a0f765ae002a8f0ebf16e7e507b83",
+  "legacy_bz2_size": 10644,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/pytest-openfiles-0.4.0-py_0",
+    "type": 1
+  },
+  "md5": "94ae22d83dc0856395b26df3ddc1f9d2",
+  "name": "pytest-openfiles",
+  "noarch": "python",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/pytest-openfiles-0.4.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pytest_openfiles-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.4.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "sha256_in_prefix": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e7468b7e3f7e0b579e1ec9daf7af05a486c7521f49a3937d151c8581c74f0afe",
+        "sha256_in_prefix": "e7468b7e3f7e0b579e1ec9daf7af05a486c7521f49a3937d151c8581c74f0afe",
+        "size_in_bytes": 4546
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4216ae85e49a746d02b02050c0f76d16886af418b88fc742309853a10396f5b5",
+        "sha256_in_prefix": "4216ae85e49a746d02b02050c0f76d16886af418b88fc742309853a10396f5b5",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "sha256_in_prefix": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.4.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "04be6b87ee135578797ed39042974a819dcb98dc4cb0975dd9d9955ae3ddd488",
+        "sha256_in_prefix": "04be6b87ee135578797ed39042974a819dcb98dc4cb0975dd9d9955ae3ddd488",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "180f0303f0cfcd2cbdef5ef9586c46b28203f4a351b7bde2228ba8147cb41cd9",
+        "sha256_in_prefix": "180f0303f0cfcd2cbdef5ef9586c46b28203f4a351b7bde2228ba8147cb41cd9",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/pytest_openfiles/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f4d9671c6301fbc26800294054198b484dfda28fa542555e121739f6f1aced67",
+        "sha256_in_prefix": "f4d9671c6301fbc26800294054198b484dfda28fa542555e121739f6f1aced67",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/pytest_openfiles/plugin.py",
+        "path_type": "hardlink",
+        "sha256": "ca01c4172b2c4ac5fd2cfa4d89af65c9ed0e3d4e8d68f66072d9ebc7a64ccc22",
+        "sha256_in_prefix": "ca01c4172b2c4ac5fd2cfa4d89af65c9ed0e3d4e8d68f66072d9ebc7a64ccc22",
+        "size_in_bytes": 4053
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_openfiles/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pytest_openfiles/__pycache__/plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3afb66637a2f9877b5a8ae3a177b4746f7e7aaed045f36324b557444ad043de0",
+  "size": 10851,
+  "subdir": "noarch",
+  "timestamp": 1569374998187,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pytest-openfiles-0.4.0-py_0.tar.bz2",
+  "version": "0.4.0"
+}

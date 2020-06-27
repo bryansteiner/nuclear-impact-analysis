@@ -1,0 +1,35 @@
+{
+  "build": "h7520d66_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "backports.shutil_get_terminal_size"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/get_terminal_size-1.0.0-h7520d66_0",
+  "features": "",
+  "files": [],
+  "fn": "get_terminal_size-1.0.0-h7520d66_0.conda",
+  "legacy_bz2_md5": "77ac7a22b3f4da13f9e52a2efd997c84",
+  "legacy_bz2_size": 2827,
+  "license": "MIT",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/get_terminal_size-1.0.0-h7520d66_0",
+    "type": 1
+  },
+  "md5": "18655a34ab41bbb84784c4db4e5c9cb0",
+  "name": "get_terminal_size",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/get_terminal_size-1.0.0-h7520d66_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a61c3b817d9ce8ab0ae9c1e6aa64a6e8127bc052f6196de9cc8acc35d94134a5",
+  "size": 3097,
+  "subdir": "osx-64",
+  "timestamp": 1505306006210,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/get_terminal_size-1.0.0-h7520d66_0.conda",
+  "version": "1.0.0"
+}

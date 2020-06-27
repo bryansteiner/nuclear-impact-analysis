@@ -1,0 +1,198 @@
+{
+  "build": "py38_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libarchive",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/python-libarchive-c-2.8-py38_7",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/libarchive/__init__.py",
+    "lib/python3.8/site-packages/libarchive/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/__pycache__/entry.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/__pycache__/exception.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/__pycache__/extract.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/__pycache__/ffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/__pycache__/flags.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/__pycache__/read.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/__pycache__/write.cpython-38.pyc",
+    "lib/python3.8/site-packages/libarchive/entry.py",
+    "lib/python3.8/site-packages/libarchive/exception.py",
+    "lib/python3.8/site-packages/libarchive/extract.py",
+    "lib/python3.8/site-packages/libarchive/ffi.py",
+    "lib/python3.8/site-packages/libarchive/flags.py",
+    "lib/python3.8/site-packages/libarchive/read.py",
+    "lib/python3.8/site-packages/libarchive/write.py",
+    "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/top_level.txt"
+  ],
+  "fn": "python-libarchive-c-2.8-py38_7.conda",
+  "legacy_bz2_md5": "a3bba810d270fbc7fb126d8d1c13d87c",
+  "legacy_bz2_size": 20580,
+  "license": "CC0-1.0",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/python-libarchive-c-2.8-py38_7",
+    "type": 1
+  },
+  "md5": "8a94d40f7c6c0b135770da3cc2fb2af7",
+  "name": "python-libarchive-c",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/python-libarchive-c-2.8-py38_7.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa8a0f0adef76a0b57d6809c808547bd380cbd9a67ad984cfc0d733db1e9861a",
+        "sha256_in_prefix": "fa8a0f0adef76a0b57d6809c808547bd380cbd9a67ad984cfc0d733db1e9861a",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "901410611e5e2c4f153bffebc9779a0e15285fae9f88acf4122215434fe20673",
+        "sha256_in_prefix": "901410611e5e2c4f153bffebc9779a0e15285fae9f88acf4122215434fe20673",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/entry.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a15bff76249b9cbe2028b61aa7b1841201e380a7e294579f14ff9577ad41dcb",
+        "sha256_in_prefix": "5a15bff76249b9cbe2028b61aa7b1841201e380a7e294579f14ff9577ad41dcb",
+        "size_in_bytes": 6657
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/exception.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cdcb2c34689f28da888ce048bf00c734f55ffcd70d1e81ca4217a3ec0c00800",
+        "sha256_in_prefix": "8cdcb2c34689f28da888ce048bf00c734f55ffcd70d1e81ca4217a3ec0c00800",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/extract.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2256636c36479315e895c6241eafba982425f1dd1fd6f0a0b4a0ca8e424b983",
+        "sha256_in_prefix": "d2256636c36479315e895c6241eafba982425f1dd1fd6f0a0b4a0ca8e424b983",
+        "size_in_bytes": 2683
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/ffi.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "91ac53f677d5d7a5f25917f90c986dcd96883d896f0e35d73deeef7766b56d36",
+        "sha256_in_prefix": "91ac53f677d5d7a5f25917f90c986dcd96883d896f0e35d73deeef7766b56d36",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/flags.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f5ba80e50ceaab994514ef519f65d52dfbf05a3462a19d7d4e6c022df806acb",
+        "sha256_in_prefix": "0f5ba80e50ceaab994514ef519f65d52dfbf05a3462a19d7d4e6c022df806acb",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/read.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e98fe798486df6784071c50c1358567ae469e64b7abbd796cbd2543f4c55a243",
+        "sha256_in_prefix": "e98fe798486df6784071c50c1358567ae469e64b7abbd796cbd2543f4c55a243",
+        "size_in_bytes": 3856
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/__pycache__/write.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "058d4cd933bb9361a7646ca8d40581ec07e7d6405865a838356c7adfaf9ca0e8",
+        "sha256_in_prefix": "058d4cd933bb9361a7646ca8d40581ec07e7d6405865a838356c7adfaf9ca0e8",
+        "size_in_bytes": 5788
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/entry.py",
+        "path_type": "hardlink",
+        "sha256": "a034f2590fac7a95fd14839ec0533151ff5c4f3811077f79577baf4d15a0a73a",
+        "sha256_in_prefix": "a034f2590fac7a95fd14839ec0533151ff5c4f3811077f79577baf4d15a0a73a",
+        "size_in_bytes": 5163
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/exception.py",
+        "path_type": "hardlink",
+        "sha256": "5162aedd613b4cf1a32bb21b42e05202888a2f43e42d86d0ca3e2a7f4f6c6855",
+        "sha256_in_prefix": "5162aedd613b4cf1a32bb21b42e05202888a2f43e42d86d0ca3e2a7f4f6c6855",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/extract.py",
+        "path_type": "hardlink",
+        "sha256": "26849651ab8cf4f8274f8c3a47e733e178cef3dfc5dd35efbf44e9197715d465",
+        "sha256_in_prefix": "26849651ab8cf4f8274f8c3a47e733e178cef3dfc5dd35efbf44e9197715d465",
+        "size_in_bytes": 2375
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/ffi.py",
+        "path_type": "hardlink",
+        "sha256": "f4812952e04a18cdd7cf4f4d8aa222aff683a69f7d4f62677d186680699719cc",
+        "sha256_in_prefix": "f4812952e04a18cdd7cf4f4d8aa222aff683a69f7d4f62677d186680699719cc",
+        "size_in_bytes": 9013
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/flags.py",
+        "path_type": "hardlink",
+        "sha256": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+        "sha256_in_prefix": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/read.py",
+        "path_type": "hardlink",
+        "sha256": "69569dabce56f8aa6c14c23023c0fd431be06a655bc45b8116d993cab6788a7e",
+        "sha256_in_prefix": "69569dabce56f8aa6c14c23023c0fd431be06a655bc45b8116d993cab6788a7e",
+        "size_in_bytes": 4094
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive/write.py",
+        "path_type": "hardlink",
+        "sha256": "57f6be9dc432372c86c15b9b7358c1e2286fb6b323b4f353db9a6889203ebd5d",
+        "sha256_in_prefix": "57f6be9dc432372c86c15b9b7358c1e2286fb6b323b4f353db9a6889203ebd5d",
+        "size_in_bytes": 6709
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ee400e67dfe7fbed8064978ee6f4f9db0477b7dfc8e247100a64f6aa593a13ba",
+        "sha256_in_prefix": "ee400e67dfe7fbed8064978ee6f4f9db0477b7dfc8e247100a64f6aa593a13ba",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "b6280f0ac8c95e9f5a0836c5606869179c4b745c7d15eb3e9a7a80577ef66c49",
+        "sha256_in_prefix": "b6280f0ac8c95e9f5a0836c5606869179c4b745c7d15eb3e9a7a80577ef66c49",
+        "size_in_bytes": 1009
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/libarchive_c-2.8-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+        "sha256_in_prefix": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+        "size_in_bytes": 11
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2e0e4bd900903814846753a0ec22efb5df04d40304733c0b193db74154a62b65",
+  "size": 21267,
+  "subdir": "osx-64",
+  "timestamp": 1573201287677,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python-libarchive-c-2.8-py38_7.conda",
+  "version": "2.8"
+}

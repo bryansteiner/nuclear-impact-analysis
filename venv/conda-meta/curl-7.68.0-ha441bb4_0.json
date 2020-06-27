@@ -1,0 +1,51 @@
+{
+  "build": "ha441bb4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.17.1,<1.18.0a0",
+    "libcurl 7.68.0 h051b688_0",
+    "libssh2 >=1.8.2,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/curl-7.68.0-ha441bb4_0",
+  "features": "",
+  "files": [
+    "bin/curl"
+  ],
+  "fn": "curl-7.68.0-ha441bb4_0.conda",
+  "legacy_bz2_md5": "42d493875c79645dc3ec196529f2d006",
+  "legacy_bz2_size": 143736,
+  "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+  "license_family": "MIT",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/curl-7.68.0-ha441bb4_0",
+    "type": 1
+  },
+  "md5": "8a5b704500dfcb52ae3dbd280013568e",
+  "name": "curl",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/curl-7.68.0-ha441bb4_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/curl",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/b2819486-d500-4d36-5659-44dcd77093ab/volume/curl_split_recipe_1580837472547/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "995915d96972ef67b6638a16bd1a28582775f85abda57584b409aa4452d06d18",
+        "sha256_in_prefix": "8eb9fc981e8db298e7e7e5fc8e2c388ed6ac466c58cba6bd45a1a72f6259a9f8",
+        "size_in_bytes": 225880
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9980a816cff41323d31c4faed0f2ddbab46d52b296d6c94e674aa427271f7d3b",
+  "size": 129084,
+  "subdir": "osx-64",
+  "timestamp": 1580837729562,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/curl-7.68.0-ha441bb4_0.conda",
+  "version": "7.68.0"
+}

@@ -1,0 +1,133 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/sortedcontainers-2.1.0-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/sortedcontainers/__init__.py",
+    "lib/python3.8/site-packages/sortedcontainers/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/sortedcontainers/__pycache__/sorteddict.cpython-38.pyc",
+    "lib/python3.8/site-packages/sortedcontainers/__pycache__/sortedlist.cpython-38.pyc",
+    "lib/python3.8/site-packages/sortedcontainers/__pycache__/sortedset.cpython-38.pyc",
+    "lib/python3.8/site-packages/sortedcontainers/sorteddict.py",
+    "lib/python3.8/site-packages/sortedcontainers/sortedlist.py",
+    "lib/python3.8/site-packages/sortedcontainers/sortedset.py"
+  ],
+  "fn": "sortedcontainers-2.1.0-py38_0.conda",
+  "legacy_bz2_md5": "da7aba20defb6bf3da095f37c87500ac",
+  "legacy_bz2_size": 43820,
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/sortedcontainers-2.1.0-py38_0",
+    "type": 1
+  },
+  "md5": "e6b51137cc5f16854d6a724e0fe3fbce",
+  "name": "sortedcontainers",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/sortedcontainers-2.1.0-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "9a48462a93fe30f6707f1764348f99f8aac074c3312ad7808bb899902667d534",
+        "sha256_in_prefix": "9a48462a93fe30f6707f1764348f99f8aac074c3312ad7808bb899902667d534",
+        "size_in_bytes": 12359
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "ee827dda0c1fcb6d1374467e8b8a16bb6a0dfbdacb021367a20540da7d7ed9b1",
+        "sha256_in_prefix": "ee827dda0c1fcb6d1374467e8b8a16bb6a0dfbdacb021367a20540da7d7ed9b1",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers-2.1.0-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "015b34abea9ffb5d20b35b645617c02dd79b268e2e3ee555057ed84fdd6b8905",
+        "sha256_in_prefix": "015b34abea9ffb5d20b35b645617c02dd79b268e2e3ee555057ed84fdd6b8905",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "235d4d37c3cb23a4559073ad8596c196fc849f847022775bf364531865bac9d9",
+        "sha256_in_prefix": "235d4d37c3cb23a4559073ad8596c196fc849f847022775bf364531865bac9d9",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a021278314112824007b539b842950a71ed422d45083b4b214f1f6e04650fc2a",
+        "sha256_in_prefix": "a021278314112824007b539b842950a71ed422d45083b4b214f1f6e04650fc2a",
+        "size_in_bytes": 2267
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/__pycache__/sorteddict.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d936efd9ceec41a54706c870e5ce33e4af2333537e61ef1cb5ef089ae34aad6",
+        "sha256_in_prefix": "2d936efd9ceec41a54706c870e5ce33e4af2333537e61ef1cb5ef089ae34aad6",
+        "size_in_bytes": 22668
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/__pycache__/sortedlist.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a3b184bac00b6718f69f01a26301ff8cc2c94f969b5414d06945d5bee8906cd",
+        "sha256_in_prefix": "4a3b184bac00b6718f69f01a26301ff8cc2c94f969b5414d06945d5bee8906cd",
+        "size_in_bytes": 60064
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/__pycache__/sortedset.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "14f6dca8aac7b7aa79d7fced068c1d107c1abfbf3ffdfa7b27876a95c20e6005",
+        "sha256_in_prefix": "14f6dca8aac7b7aa79d7fced068c1d107c1abfbf3ffdfa7b27876a95c20e6005",
+        "size_in_bytes": 19734
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/sorteddict.py",
+        "path_type": "hardlink",
+        "sha256": "db93e2aecbd69421e8d407eddcd48b75e41829172355184c1459a9fbb8fea9d8",
+        "sha256_in_prefix": "db93e2aecbd69421e8d407eddcd48b75e41829172355184c1459a9fbb8fea9d8",
+        "size_in_bytes": 22488
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/sortedlist.py",
+        "path_type": "hardlink",
+        "sha256": "a4f3e54470a3584e3b29036c35680bedd38cc7423f2b1761f0d90b5fbc497b82",
+        "sha256_in_prefix": "a4f3e54470a3584e3b29036c35680bedd38cc7423f2b1761f0d90b5fbc497b82",
+        "size_in_bytes": 75789
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sortedcontainers/sortedset.py",
+        "path_type": "hardlink",
+        "sha256": "e51236094246326d62837f9d85b3abcc397c68fa8378f92824f428ab444e4bb3",
+        "sha256_in_prefix": "e51236094246326d62837f9d85b3abcc397c68fa8378f92824f428ab444e4bb3",
+        "size_in_bytes": 19825
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "518e1baa87b91200ec3bd17ab27cec0eb934a783079deef0e535bf133e961e64",
+  "size": 43094,
+  "subdir": "osx-64",
+  "timestamp": 1573201321148,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sortedcontainers-2.1.0-py38_0.conda",
+  "version": "2.1.0"
+}

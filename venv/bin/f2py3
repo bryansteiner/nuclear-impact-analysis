@@ -1,4 +1,4 @@
-#!/Users/bryansteiner/Github/nuclear-impact-data/venv/bin/python3
+#!/Users/bryansteiner/Github/nuclear-impact-data/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

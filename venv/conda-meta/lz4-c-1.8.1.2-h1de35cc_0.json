@@ -1,0 +1,179 @@
+{
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/usr/local/anaconda3/pkgs/lz4-c-1.8.1.2-h1de35cc_0",
+  "features": "",
+  "files": [
+    "bin/lz4",
+    "bin/lz4c",
+    "bin/lz4cat",
+    "bin/unlz4",
+    "include/lz4.h",
+    "include/lz4frame.h",
+    "include/lz4frame_static.h",
+    "include/lz4hc.h",
+    "lib/liblz4.1.8.1.dylib",
+    "lib/liblz4.1.dylib",
+    "lib/liblz4.a",
+    "lib/liblz4.dylib",
+    "lib/pkgconfig/liblz4.pc",
+    "share/man/man1/lz4.1",
+    "share/man/man1/lz4c.1",
+    "share/man/man1/lz4cat.1",
+    "share/man/man1/unlz4.1"
+  ],
+  "fn": "lz4-c-1.8.1.2-h1de35cc_0.conda",
+  "legacy_bz2_md5": "4de92db9f54a4b55311fc1133e56a2a2",
+  "legacy_bz2_size": 121809,
+  "license": "BSD 2-clause",
+  "link": {
+    "source": "/usr/local/anaconda3/pkgs/lz4-c-1.8.1.2-h1de35cc_0",
+    "type": 1
+  },
+  "md5": "c1d34cfb174647bc532cf6013d612b25",
+  "name": "lz4-c",
+  "package_tarball_full_path": "/usr/local/anaconda3/pkgs/lz4-c-1.8.1.2-h1de35cc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/lz4",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/lz4-c_1524590558581/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "b305bad19f2f6de844e3d9754e581ca5ba249001ba4be048d1377f3fb10b3ab9",
+        "sha256_in_prefix": "faf6d08868b9ad3770501823fe3492aa166bf010d354bb82e7f5b5a2a7c7471e",
+        "size_in_bytes": 148972
+      },
+      {
+        "_path": "bin/lz4c",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/lz4-c_1524590558581/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "b305bad19f2f6de844e3d9754e581ca5ba249001ba4be048d1377f3fb10b3ab9",
+        "size_in_bytes": 148972
+      },
+      {
+        "_path": "bin/lz4cat",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/lz4-c_1524590558581/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "b305bad19f2f6de844e3d9754e581ca5ba249001ba4be048d1377f3fb10b3ab9",
+        "size_in_bytes": 148972
+      },
+      {
+        "_path": "bin/unlz4",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/lz4-c_1524590558581/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "b305bad19f2f6de844e3d9754e581ca5ba249001ba4be048d1377f3fb10b3ab9",
+        "size_in_bytes": 148972
+      },
+      {
+        "_path": "include/lz4.h",
+        "path_type": "hardlink",
+        "sha256": "417696e908258ecffc2122e0d9e1d3fe72dc562be65fc62a40da654394c18ed7",
+        "sha256_in_prefix": "417696e908258ecffc2122e0d9e1d3fe72dc562be65fc62a40da654394c18ed7",
+        "size_in_bytes": 24336
+      },
+      {
+        "_path": "include/lz4frame.h",
+        "path_type": "hardlink",
+        "sha256": "a7d6189e041e006ed9238b4c97680ec6b825fd8543d2a93e632734bcef64bd13",
+        "sha256_in_prefix": "a7d6189e041e006ed9238b4c97680ec6b825fd8543d2a93e632734bcef64bd13",
+        "size_in_bytes": 19158
+      },
+      {
+        "_path": "include/lz4frame_static.h",
+        "path_type": "hardlink",
+        "sha256": "3a2419be2bde9ee3fc7c0dcc7c2ccbf60eba20797aa38ab1226b2135639af84d",
+        "sha256_in_prefix": "3a2419be2bde9ee3fc7c0dcc7c2ccbf60eba20797aa38ab1226b2135639af84d",
+        "size_in_bytes": 6269
+      },
+      {
+        "_path": "include/lz4hc.h",
+        "path_type": "hardlink",
+        "sha256": "0b73b87eedbbd85443ace5085bca143e2e04e469d505e01ef2ffeef573ded39a",
+        "sha256_in_prefix": "0b73b87eedbbd85443ace5085bca143e2e04e469d505e01ef2ffeef573ded39a",
+        "size_in_bytes": 13907
+      },
+      {
+        "_path": "lib/liblz4.1.8.1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/lz4-c_1524590558581/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "91e98b6e112ce68b46b3b7a10755c9f7eda5ca125310efcce098fb4df44fa780",
+        "sha256_in_prefix": "4d22d111a0483b50132b587a59c3edf090e9ef0d85abbe8075f746828d81c52f",
+        "size_in_bytes": 97524
+      },
+      {
+        "_path": "lib/liblz4.1.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/lz4-c_1524590558581/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "91e98b6e112ce68b46b3b7a10755c9f7eda5ca125310efcce098fb4df44fa780",
+        "size_in_bytes": 97524
+      },
+      {
+        "_path": "lib/liblz4.a",
+        "path_type": "hardlink",
+        "sha256": "3059cc9f3f0ed9f598cc549390d50c26addae93b1c02bf6fe32a9cb9ea0c0210",
+        "sha256_in_prefix": "3059cc9f3f0ed9f598cc549390d50c26addae93b1c02bf6fe32a9cb9ea0c0210",
+        "size_in_bytes": 107008
+      },
+      {
+        "_path": "lib/liblz4.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/lz4-c_1524590558581/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "91e98b6e112ce68b46b3b7a10755c9f7eda5ca125310efcce098fb4df44fa780",
+        "size_in_bytes": 97524
+      },
+      {
+        "_path": "lib/pkgconfig/liblz4.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "dbd2fc6dbc50878da9f6ce71f65799b5eeb60348d3b7ba1489518d6d071c3994",
+        "sha256_in_prefix": "29de3601f51fcb6db20a0622c67c35510a1b5f7b6e1c93aab55c962f6a71b703",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "share/man/man1/lz4.1",
+        "path_type": "hardlink",
+        "sha256": "2b7b1d17e13d1fcef92fbccacbb6480ab570d95c6dd4582ec7a8b02abceea7d2",
+        "sha256_in_prefix": "2b7b1d17e13d1fcef92fbccacbb6480ab570d95c6dd4582ec7a8b02abceea7d2",
+        "size_in_bytes": 7796
+      },
+      {
+        "_path": "share/man/man1/lz4c.1",
+        "path_type": "softlink",
+        "sha256": "2b7b1d17e13d1fcef92fbccacbb6480ab570d95c6dd4582ec7a8b02abceea7d2",
+        "size_in_bytes": 7796
+      },
+      {
+        "_path": "share/man/man1/lz4cat.1",
+        "path_type": "softlink",
+        "sha256": "2b7b1d17e13d1fcef92fbccacbb6480ab570d95c6dd4582ec7a8b02abceea7d2",
+        "size_in_bytes": 7796
+      },
+      {
+        "_path": "share/man/man1/unlz4.1",
+        "path_type": "softlink",
+        "sha256": "2b7b1d17e13d1fcef92fbccacbb6480ab570d95c6dd4582ec7a8b02abceea7d2",
+        "size_in_bytes": 7796
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f0767a6ba23d81067510603cce19e49050f32d3eea211065df9969bbe6d4aa20",
+  "size": 101663,
+  "subdir": "osx-64",
+  "timestamp": 1524591462371,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/lz4-c-1.8.1.2-h1de35cc_0.conda",
+  "version": "1.8.1.2"
+}
