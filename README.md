@@ -1,4 +1,4 @@
-# nuclear-impact-analysis
+# nuclear-impact-data
 
 Source data: [Wikipedia](https://en.wikipedia.org/wiki/List_of_nuclear_weapons_tests)
 
